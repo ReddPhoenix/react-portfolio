@@ -1,0 +1,30 @@
+h1 {
+    font-size: 5rem;
+}
+
+.Card {
+    border-radius: 50px;
+    border-width: 10px;
+    border-color: red;
+    box-shadow: red;
+
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+}
+
+
+
+
+#navbarMenu {
+    background-color: rgba(196, 102, 102, 0);
+}
+
+
+.navbar.container {
+    background-color: rgba(196, 102, 102, 0);
+}
+
+/* navbar-burger {
+    color: #ededed;
+} */

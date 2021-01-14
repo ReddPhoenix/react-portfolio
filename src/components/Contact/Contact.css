@@ -1,0 +1,17 @@
+.label {
+    color: white;
+}
+
+.box {
+    background: rgba(233, 221, 218, 0.13);
+    
+}
+
+div.hero-body {
+    /* padding-bottom: 0px; */
+    /* margin-bottom: 0px; */
+}
+
+.social-media #contact-linkedin{
+    margin-right: 10px;
+}

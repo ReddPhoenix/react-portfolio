@@ -1,0 +1,14 @@
+.footer.footer {
+
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+    font-size: .80em;
+    display: flex;
+    flex-direction: row;
+    display: contents;
+    min-height: 100%;
+    margin-top: 25px;
+
+    background-color: rgba(255, 0, 0, 0);
+}
