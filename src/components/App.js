@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
 import { BrowserRouter, Route} from 'react-router-dom';
 import Home from './Home/Home';
-import Portfolio from './Cards/Portfolio.jsx';
-import Contact from './Contact/Contact';
+// import Portfolio from './Cards/Portfolio.jsx';
+// import Contact from './Contact/Contact';
+import Portfolio from '../../src/components/Cards/Portfolio.jsx';
+import Contact from '../../src/components/Contact/Contact.jsx';
 
 
 class App extends Component {

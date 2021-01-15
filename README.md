@@ -17,7 +17,7 @@ Portfolio developed to reflect experience, projects, and contact information. De
 
 ## Demo
 
-![Website Screenshot](https://github.com/ReddPhoenix/react-portfolio/blob/main/public/assets/projects/react-portfolio.gif?raw=true)
+![Website Screenshot](https://raw.githubusercontent.com/ReddPhoenix/react-portfolio/main/src/assets/projects/react-portfolio.gif)
 
 ## License
 
