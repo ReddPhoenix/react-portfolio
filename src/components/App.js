@@ -16,8 +16,8 @@ class App extends Component {
                     <Route path ='/contact' component = {Contact} />
                 </div> 
             </BrowserRouter>
-                </>
-            );
+            </>
+        );
     }
 }
 

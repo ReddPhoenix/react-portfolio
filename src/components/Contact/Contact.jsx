@@ -4,11 +4,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import '../Home/styles/home-styles.css';
 
-const Video = './assets/home/ocean-video.mp4'
-// const Logo = './assets/home/walter-guerrero-3.png'
-
-
-
+const Video = './assets/home/ocean-video2.mp4'
 class Home extends Component {
     render() {
         return (
@@ -35,16 +31,11 @@ class Home extends Component {
                     <Header />
 
                     <Contact />
-                <hr className='content-divider' />
-                <div className='footer' >
-                    <Footer />
-                    {/* <a className="button is-info contact-button" href='contact'>
-                        Click Here To Contact Me
-                   </a> */}
-                </div>
-                
+                    <hr className='content-divider' />
+                    <div className='footer' >
+                        <Footer />
+                    </div>
                 </section>
-
             </>
         )
     }

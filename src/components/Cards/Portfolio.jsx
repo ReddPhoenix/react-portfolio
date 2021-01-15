@@ -5,6 +5,9 @@ import Project3 from './Project3';
 import Project4 from './Project4';
 import Project5 from './Project5';
 import Project6 from './Project6';
+import Project7 from './Project7';
+import Project8 from './Project8';
+import Project9 from './Project9';
 import '../../../src/styles.css';
 import '../Home/styles/home-styles.css';
 import Header from '../Header/Header';
@@ -26,7 +29,7 @@ class Portfolio extends Component {
                 <div className="columns">
                   <div className="column has-text-centered">
                     <h1 className="title" >Portfolio</h1>
-                    <h2 className='subtitle'>A collection of projects using various front and back end technologies <br />such as React, Bulma, Material-UI, Javascript, and various databases </h2>
+                    <h2 className='subtitle'>A collection of projects using various front and back end technologies <br />such as React, Bulma, Material-UI, Javascript, and multiple databases </h2>
                     <br />
                     <h6 className='subtitle'>{'{Enjoy the Parallax Background Effect by scrolling slowly}'}</h6>
                     <br />
@@ -60,13 +63,13 @@ class Portfolio extends Component {
                     <Project2 />
                   </div>
                   <div className='column is-4 Card' align="center">
-                    <Project2 />
+                    <Project7 />
                   </div>
                   <div className='column is-4 Card' align="center">
-                    <Project2 />
+                    <Project8 />
                   </div>
                   <div className='column is-4 Card' align="center">
-                    <Project2 />
+                    <Project9 />
                   </div>
 
 

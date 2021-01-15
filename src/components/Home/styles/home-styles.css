@@ -32,11 +32,6 @@ html,body {
     
     
   }
-  
-  /* .navbar .navbar-brand > .navbar-item,
-  .navbar .navbar-brand .navbar-link {
-    display: inline-block;
-  } */
 
   @media screen and (min-width: 1024px){
 .navbar-menu {
@@ -94,9 +89,6 @@ h1.title {
   text-decoration: underline;
   @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&display=swap');
   font-family: 'Bodoni Moda', serif;
-
-  /* @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:ital,wght@1,300&display=swap'); */
-  /* font-family: 'Courgette', cursive; */
 }
 
 h2.subtitle {

@@ -5,9 +5,6 @@ import './styles/home-styles.css';
 
 const Video = '/assets/home/smoke.mp4'
 const Logo = './assets/home/walter-guerrero-3.png'
-// const Logo2 = './assets/home/walter-guerrero-name.png'
-
-
 class Home extends Component {
     render() {
         return (
