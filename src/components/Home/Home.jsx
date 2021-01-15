@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import './styles/home-styles.css';
+import { Link } from 'react-router-dom';
 import Video from '../../assets/home/smoke.mp4';
 import Logo from '../../assets/home/walter-guerrero-3.png'
 
@@ -24,7 +25,7 @@ class Home extends Component {
                                 top: '50%',
                                 height: '100%',
                                 objectFit: 'cover',
-                                transform: 'translate(-50%, -50%',
+                                transform: 'translate(-50%, -50%)',
                                 zIndex: '-1'
                             }}>
                             <source src={Video} autoPlay={true} loop={true} muted type='video/mp4' />
@@ -43,9 +44,9 @@ class Home extends Component {
                                 <h3 className="subtitle">
                                     Working in the civic & social organization industry has motivated me to find ways to create solutions for structured success. As a full stack web developer I'm able to recognize the need for businesses to implement technology that benefits both them and their customer base.
                             </h3>
-                                <a className="button is-info contact-button" href='contact'>
+                                <Link className="button is-info contact-button" to='/contact'>
                                     Click Here To Contact Me
-                                </a>
+                                </Link>
                             </div>
                             <hr className='content-divider' />
                             <div className='footer' >

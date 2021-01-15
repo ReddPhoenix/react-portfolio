@@ -8,6 +8,7 @@ import Project6 from './Project6';
 import Project7 from './Project7';
 import Project8 from './Project8';
 import Project9 from './Project9';
+import { Link } from 'react-router-dom';
 import '../../../src/styles.css';
 import '../Home/styles/home-styles.css';
 import image1 from '../../assets/home/dots.jpg';
@@ -78,9 +79,9 @@ class Portfolio extends Component {
             </div>
           </div>
           <div className='has-text-centered'>
-            <a className="button is-info contact-button" href='contact'>
+            <Link className="button is-info contact-button" to='/contact'>
               Click Here To Contact Me
-            </a>
+            </Link>
           </div>
           <hr className='content-divider' />
           <div className='footer' >

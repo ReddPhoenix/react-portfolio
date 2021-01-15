@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Header = (props) => {
@@ -22,20 +23,20 @@ const Header = (props) => {
                     <div id='navbarMenu' className='navbar-menu'>
                         <div className='navbar-end'>
                             <span className='navbar-item' onClick={toggleBurgerMenu}>
-                                <a className='button is-white is-outlined' href='/react-portfolio/'>
+                                <Link className='button is-white is-outlined' to='/'>
                                     <span className='icon'>
                                         <i className='fa fa-home'></i>
                                     </span>
                                     <span>Home</span>
-                                </a>
+                                </Link>
                             </span>
                             <span className='navbar-item' onClick={toggleBurgerMenu}>
-                                <a className='button is-white is-outlined' href='/react-portfolio/portfolio'>
+                                <Link className='button is-white is-outlined' to='/portfolio'>
                                     <span className='icon'>
                                         <i className='fa fa-code'></i>
                                     </span>
                                     <span>Portfolio</span>
-                                </a>
+                                </Link>
                             </span>
                             <span className='navbar-item' onClick={toggleBurgerMenu}>
                                 <a className='button is-white is-outlined' target='_blank' rel='noreferrer noopener' href='https://drive.google.com/file/d/1oUpFzV2oGDskBou4uAaKMvPG0tFh_usq/view?usp=sharing'>
