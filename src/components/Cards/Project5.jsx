@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import image1 from '../../assets/projects/workout-tracker.png';
 
 const useStyles = makeStyles({
   root: {
@@ -24,7 +25,7 @@ export default function ImgMediaCard() {
           component="img"
           alt="Workout Tracker"
           height="140"
-          image="/assets/projects/workout-tracker.png"
+          image={image1}
           title="Workout Tracker"
         />
         <CardContent>

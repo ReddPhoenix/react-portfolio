@@ -22,7 +22,7 @@ const Header = (props) => {
                     <div id='navbarMenu' className='navbar-menu'>
                         <div className='navbar-end'>
                             <span className='navbar-item' onClick={toggleBurgerMenu}>
-                                <a className='button is-white is-outlined' href='/'>
+                                <a className='button is-white is-outlined' href='/react-portfolio/'>
                                     <span className='icon'>
                                         <i className='fa fa-home'></i>
                                     </span>
@@ -30,7 +30,7 @@ const Header = (props) => {
                                 </a>
                             </span>
                             <span className='navbar-item' onClick={toggleBurgerMenu}>
-                                <a className='button is-white is-outlined' href='/portfolio'>
+                                <a className='button is-white is-outlined' href='/react-portfolio/portfolio'>
                                     <span className='icon'>
                                         <i className='fa fa-code'></i>
                                     </span>

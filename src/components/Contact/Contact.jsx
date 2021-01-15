@@ -3,8 +3,9 @@ import Contact from '../Contact/Contact-Form';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import '../Home/styles/home-styles.css';
+import Video from '../../assets/home/ocean-video2.mp4';
 
-const Video = './assets/home/ocean-video2.mp4'
+// const Video = './assets/home/ocean-video2.mp4'
 class Home extends Component {
     render() {
         return (

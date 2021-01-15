@@ -10,12 +10,12 @@ import Project8 from './Project8';
 import Project9 from './Project9';
 import '../../../src/styles.css';
 import '../Home/styles/home-styles.css';
+import image1 from '../../assets/home/dots.jpg';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
 import { Parallax } from 'react-parallax'
 
-const image1 = '/assets/home/dots.jpg'
 
 class Portfolio extends Component {
   render() {

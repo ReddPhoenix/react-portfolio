@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import './styles/home-styles.css';
+import Video from '../../assets/home/smoke.mp4';
+import Logo from '../../assets/home/walter-guerrero-3.png'
 
-const Video = '/assets/home/smoke.mp4'
-const Logo = './assets/home/walter-guerrero-3.png'
+// const Video = './assets/home/smoke.mp4'
+// const Logo = './assets/home/walter-guerrero-3.png'
 class Home extends Component {
     render() {
         return (
