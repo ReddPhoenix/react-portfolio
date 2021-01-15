@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.d3d79a0a.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.32ecf18e.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.32ecf18e.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.67f0b1dc.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.67f0b1dc.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.7686de59.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7686de59.js.map",
     "static/css/2.cfebcdcb.chunk.css": "/react-portfolio/static/css/2.cfebcdcb.chunk.css",
@@ -21,7 +21,7 @@
     "static/media/ocean-video2.8bd381fb.mp4": "/react-portfolio/static/media/ocean-video2.8bd381fb.mp4",
     "static/media/portfolio-demo.a76e7493.gif": "/react-portfolio/static/media/portfolio-demo.a76e7493.gif",
     "static/media/quiz.886eaa60.png": "/react-portfolio/static/media/quiz.886eaa60.png",
-    "static/media/smoke.d0469107.mp4": "/react-portfolio/static/media/smoke.d0469107.mp4",
+    "static/media/smoke.d8f6ffcf.mp4": "/react-portfolio/static/media/smoke.d8f6ffcf.mp4",
     "static/media/taskably.c8855cf0.png": "/react-portfolio/static/media/taskably.c8855cf0.png",
     "static/media/walter-guerrero-3.05f7a2f0.png": "/react-portfolio/static/media/walter-guerrero-3.05f7a2f0.png",
     "static/media/workout-tracker.2b87b8f6.png": "/react-portfolio/static/media/workout-tracker.2b87b8f6.png"
@@ -31,6 +31,6 @@
     "static/css/2.cfebcdcb.chunk.css",
     "static/js/2.974456a4.chunk.js",
     "static/css/main.d3d79a0a.chunk.css",
-    "static/js/main.32ecf18e.chunk.js"
+    "static/js/main.67f0b1dc.chunk.js"
   ]
 }
