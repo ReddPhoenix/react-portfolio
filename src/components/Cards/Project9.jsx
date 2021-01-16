@@ -23,10 +23,10 @@ export default function ImgMediaCard() {
       <CardActionArea href='https://reddphoenix.github.io/portfolio' target='_blank'>
         <CardMedia
           component="img"
-          alt="Book vs Movie"
+          alt="Previous Portfolio"
           height="140"
           image={image1}
-          title="Book vs Movie"
+          title="Previous Portfolio"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

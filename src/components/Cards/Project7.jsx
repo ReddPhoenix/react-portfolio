@@ -23,10 +23,10 @@ export default function ImgMediaCard() {
       <CardActionArea href='https://blooming-cliffs-45969.herokuapp.com/' target='_blank'>
         <CardMedia
           component="img"
-          alt="Book vs Movie"
+          alt="Budget Tracker"
           height="140"
           image={image1}
-          title="Book vs Movie"
+          title="Budget Tracker"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
