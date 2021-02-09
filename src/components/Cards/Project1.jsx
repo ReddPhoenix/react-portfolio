@@ -45,7 +45,7 @@ export default function ImgMediaCard() {
 
 Awarded Certificate of Recognition for
             <br />
-            <a href='./assets/projects/Best_UIUX_taskably.png' target='_blank' >Best UI/UX</a>
+            <a href='https://raw.githubusercontent.com/ReddPhoenix/react-portfolio/main/src/assets/projects/Best_UIUX_taskably.png' target='_blank' rel='noreferrer'>Best UI/UX</a>
 
           </Typography>
         </CardContent>

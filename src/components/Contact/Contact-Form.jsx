@@ -7,7 +7,7 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import Avatar from 'avataaars';
 import './Contact.css';
-
+// import Profile from '../../assets/projects/Profile.png'
 
 function sendEmail(e) {
     e.preventDefault();
@@ -44,6 +44,7 @@ export default function Contact() {
                     <div className="container has-text-centered" id='contact-container'>
                         <div className="columns is-8 is-variable ">
                             <div className="column is-two-thirds has-text-centered ">
+                                {/* <img src={Profile} alt='Profile' width='220' /> */}
                                 <Avatar
                                     avatarStyle='Circle'
                                     topType='ShortHairShortFlat'
