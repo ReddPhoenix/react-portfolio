@@ -38,10 +38,11 @@ export default function ImgMediaCard() {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions style={{display: 'flex', justifyContent: 'center' }}>
-      <Button size="small" color="primary" href='https://blooming-cliffs-45969.herokuapp.com/' target='_blank'>
+      <CardActions style={{ display: 'flex', justifyContent: 'center' }}>
+        {/* App must be installed locally */}
+      {/* <Button size="small" color="primary" href='' target='_blank'>
           App
-        </Button>
+        </Button> */}
         <Button size="small" color="primary" href='https://github.com/ReddPhoenix/template-engine-employee-summary' target='_blank'>
           GitHub Repository
         </Button>

@@ -8,6 +8,7 @@ import Project6 from './Project6';
 import Project7 from './Project7';
 import Project8 from './Project8';
 import Project9 from './Project9';
+import Project10 from './Project10';
 import { Link } from 'react-router-dom';
 import '../../../src/styles.css';
 import '../Home/styles/home-styles.css';
@@ -39,6 +40,10 @@ class Portfolio extends Component {
 
 
                 <div id='app' className='row columns is-multiline' >
+
+                  <div className='column is-4 Card ' align="center">
+                    <Project10 />
+                  </div>
 
                   <div className='column is-4 Card ' align="center">
                     <Project1 />

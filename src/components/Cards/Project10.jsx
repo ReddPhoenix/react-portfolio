@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import image1 from '../../assets/projects/portfolio-demo.gif';
+import image1 from '../../assets/projects/taskably2.gif';
 
 const useStyles = makeStyles({
   root: {
@@ -23,26 +23,36 @@ export default function ImgMediaCard() {
       <CardActionArea href='https://reddphoenix.github.io/portfolio' target='_blank'>
         <CardMedia
           component="img"
-          alt="Previous Portfolio"
+          alt="Taskably 2.0"
           height="140"
           image={image1}
-          title="Previous Portfolio"
+          title="Taskably 2.0"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Previous Portfolio
+            Taskably 2.0
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Responsive website developed to reflect experience, projects, and contact information. Developed using Bulma & Bootstrap code.
+            React app that uses role authentication to manage roles such as customers and employees.
+            <br />
+            <br />
+            <u>Login Credentials</u>
+
+            <br /> TECHNICIAN: tech@email.com
+            <br /> PASSWORD: 123456
+            <br />
+            <br /> CUSTOMER: bfarrall1@booking.com
+            <br /> PASSWORD: 123456
+
 
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions style={{display: 'flex', justifyContent: 'center' }}>
-      <Button size="small" color="primary" href='https://reddphoenix.github.io/portfolio/' target='_blank'>
+      <CardActions style={{ display: 'flex', justifyContent: 'center' }}>
+        <Button size="small" color="primary" href='https://arcane-sands-96523.herokuapp.com' target='_blank'>
           App
         </Button>
-        <Button size="small" color="primary" href='https://github.com/ReddPhoenix/portfolio' target='_blank'>
+        <Button size="small" color="primary" href='https://github.com/ReddPhoenix/taskably-2.0' target='_blank'>
           GitHub Repository
         </Button>
       </CardActions>

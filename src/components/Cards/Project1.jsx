@@ -43,14 +43,14 @@ export default function ImgMediaCard() {
             <br></br>
             <br></br>
 
-Awarded Certificate of Recognition for
+            Awarded Certificate of Recognition for
             <br />
             <a href='https://raw.githubusercontent.com/ReddPhoenix/react-portfolio/main/src/assets/projects/Best_UIUX_taskably.png' target='_blank' rel='noreferrer'>Best UI/UX</a>
 
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions style={{display: 'flex', justifyContent: 'center' }}>
+      <CardActions style={{ display: 'flex', justifyContent: 'center' }}>
         <Button size="small" color="primary" href='https://arcane-wildwood-67330.herokuapp.com/' target='_blank'>
           App
         </Button>
