@@ -20,7 +20,7 @@ export default function ImgMediaCard() {
 
   return (
     <Card className={classes.root}>
-      <CardActionArea href='https://blooming-cliffs-45969.herokuapp.com/' target='_blank'>
+      <CardActionArea href='https://github.com/ReddPhoenix/template-engine-employee-summary' target='_blank'>
         <CardMedia
           component="img"
           alt="Team Generator"
