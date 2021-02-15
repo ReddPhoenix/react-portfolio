@@ -74,16 +74,16 @@ class Portfolio extends Component {
                     <Project7 />
                   </div>
                   <div className='column is-4 Card' align="center">
-                    <Project8 />
-                  </div>
-                  <div className='column is-4 Card' align="center">
-                    <Project9 />
-                  </div>
-                  <div className='column is-4 Card' align="center">
                     <Project11 />
                   </div>
                   <div className='column is-4 Card' align="center">
+                    <Project8 />
+                  </div>
+                  <div className='column is-4 Card' align="center">
                     <Project12 />
+                  </div>
+                  <div className='column is-4 Card' align="center">
+                    <Project9 />
                   </div>
 
 
