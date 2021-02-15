@@ -23,14 +23,14 @@ export default function ImgMediaCard() {
       <CardActionArea href='https://github.com/ReddPhoenix/employee-tracker' target='_blank'>
         <CardMedia
           component="img"
-          alt="Team Generator"
+          alt="Employee Tracker"
           height="140"
           image={image1}
-          title="Team Generator"
+          title="Employee Tracker"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-          Team Generator
+          Employee Tracker
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
           Command Line Application application that allows a user to maintain a company roster. The application is able to add departments/roles/employees, view departments/roles/employees, and update employee roles. App uses MySQL database to create, store and update company roster. (Must be installed locally)

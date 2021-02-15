@@ -10,6 +10,7 @@ import Project8 from './Project8';
 import Project9 from './Project9';
 import Project10 from './Project10';
 import Project11 from './Project11';
+import Project12 from './Project12';
 import { Link } from 'react-router-dom';
 import '../../../src/styles.css';
 import '../Home/styles/home-styles.css';
@@ -80,6 +81,9 @@ class Portfolio extends Component {
                   </div>
                   <div className='column is-4 Card' align="center">
                     <Project11 />
+                  </div>
+                  <div className='column is-4 Card' align="center">
+                    <Project12 />
                   </div>
 
 
