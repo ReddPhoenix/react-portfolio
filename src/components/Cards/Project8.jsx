@@ -27,6 +27,7 @@ export default function ImgMediaCard() {
           height="140"
           image={image1}
           title="Team Generator"
+          className="image-border"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

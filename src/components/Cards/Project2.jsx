@@ -28,6 +28,7 @@ export default function ImgMediaCard() {
           height="140"
           image={image1}
           title="Javascript Code Quiz"
+          className="image-border"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">

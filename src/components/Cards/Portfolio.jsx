@@ -13,6 +13,7 @@ import Project11 from './Project11';
 import Project12 from './Project12';
 import { Link } from 'react-router-dom';
 import '../../../src/styles.css';
+import '../Cards/styles/Project.css';
 import '../Home/styles/home-styles.css';
 import image1 from '../../assets/home/dots.jpg';
 import Header from '../Header/Header';

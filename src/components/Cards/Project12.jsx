@@ -9,6 +9,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import image1 from '../../assets/projects/employee-tracker.gif';
 
+
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -27,6 +28,7 @@ export default function ImgMediaCard() {
           height="140"
           image={image1}
           title="Employee Tracker"
+          className="image-border"
           />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
