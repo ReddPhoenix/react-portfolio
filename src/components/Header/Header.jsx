@@ -39,7 +39,9 @@ const Header = (props) => {
                                 </Link>
                             </span>
                             <span className='navbar-item' onClick={toggleBurgerMenu}>
-                                <a className='button is-white is-outlined' target='_blank' rel='noreferrer noopener' href='https://drive.google.com/file/d/14MwbS6FXRR1wHn24kTDj34A5Sx-ANtWG/view?usp=sharing'>
+                                <a className='button is-white is-outlined' target='_blank' rel='noreferrer noopener'
+                                    // 2021 PDF Resume Link
+                                    href='https://drive.google.com/file/d/14MwbS6FXRR1wHn24kTDj34A5Sx-ANtWG/view?usp=sharing'>
                                     <span className='icon'>
                                         <i className='fa fa-id-card'></i>
                                     </span>
