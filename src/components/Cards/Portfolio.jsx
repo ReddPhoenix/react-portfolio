@@ -11,6 +11,7 @@ import Project9 from './Project9';
 import Project10 from './Project10';
 import Project11 from './Project11';
 import Project12 from './Project12';
+import Project13 from './Project13';
 import { Link } from 'react-router-dom';
 import '../../../src/styles.css';
 import '../Cards/styles/Project.css';
@@ -43,6 +44,10 @@ class Portfolio extends Component {
 
 
                 <div id='app' className='row columns is-multiline' >
+
+                  <div className='column is-4 Card ' align="center">
+                    <Project13 />
+                  </div>
 
                   <div className='column is-4 Card ' align="center">
                     <Project10 />

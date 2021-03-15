@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import image1 from '../../assets/projects/employee-tracker.gif';
+import image1 from '../../assets/projects/ChatTest.gif';
 
 
 const useStyles = makeStyles({
@@ -21,31 +21,31 @@ export default function ImgMediaCard() {
 
   return (
     <Card className={classes.root}>
-      <CardActionArea href='https://github.com/ReddPhoenix/employee-tracker' target='_blank'>
+      <CardActionArea href='https://slack-clone-a728f.web.app' target='_blank'>
         <CardMedia
           component="img"
-          alt="Employee Tracker"
+          alt="React Slack Clone"
           height="140"
           image={image1}
-          title="Employee Tracker"
+          title="React Slack Clone"
           className="image-border"
           />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-          Employee Tracker
+          React Slack Clone
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Command Line Application application that allows a user to maintain a company roster. The application is able to add departments/roles/employees, view departments/roles/employees, and update employee roles. App uses MySQL database to create, store and update company roster. (Must be installed locally)
+          DESCRIPTION
 
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions style={{ display: 'flex', justifyContent: 'center' }}>
         {/* App must be installed locally */}
-      {/* <Button size="small" color="primary" href='' target='_blank'>
+      <Button size="small" color="primary" href='https://slack-clone-a728f.web.app/' target='_blank'>
           App
-        </Button> */}
-        <Button size="small" color="primary" href='https://github.com/ReddPhoenix/employee-tracker' target='_blank'>
+        </Button>
+        <Button size="small" color="primary" href='https://github.com/ReddPhoenix/slack-clone' target='_blank'>
           GitHub Repository
         </Button>
       </CardActions>
