@@ -40,8 +40,8 @@ const Header = (props) => {
                             </span>
                             <span className='navbar-item' onClick={toggleBurgerMenu}>
                                 <a className='button is-white is-outlined' target='_blank' rel='noreferrer noopener'
-                                    // 2021 February PDF Resume 
-                                    href='https://drive.google.com/file/d/14MwbS6FXRR1wHn24kTDj34A5Sx-ANtWG/view?usp=sharing'>
+                                    // 2021 February PDF Resume 3.17.21
+                                    href='https://drive.google.com/file/d/1O__7MqaQlU7xM-mP3uLxnelRVYHCNFXz/view?usp=sharing'>
                                     <span className='icon'>
                                         <i className='fa fa-id-card'></i>
                                     </span>
