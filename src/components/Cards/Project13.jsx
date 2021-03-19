@@ -35,7 +35,7 @@ export default function ImgMediaCard() {
           React Slack Clone
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          DESCRIPTION
+          React chatroom app created using styled components on the frontend and utilizing Google’s Firebase on the backend. Users are able to sign in using Google authentication to read messages, post messages, and create channels for different topics in real time. 
 
           </Typography>
         </CardContent>
