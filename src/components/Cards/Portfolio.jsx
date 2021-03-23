@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 import '../../../src/styles.css';
 import '../Cards/styles/Project.css';
 import '../Home/styles/home-styles.css';
-import image1 from '../../assets/home/dots.jpg';
+import image1 from '../../assets/home/lines.jpg';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
@@ -27,7 +27,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div className='Home'>
-        <Parallax bgImage={image1} strength={700}>
+        <Parallax bgImage={image1} strength={1200}>
           <div>
             <Header />
             <div className="container">
