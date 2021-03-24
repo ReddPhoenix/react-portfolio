@@ -45,49 +45,67 @@ class Portfolio extends Component {
 
                 <div id='app' className='row columns is-multiline' >
 
+                  {/* React Slack Clone */}
                   <div className='column is-4 Card ' align="center">
                     <Project13 />
                   </div>
 
+                  {/* Taskably 2.0 */}
                   <div className='column is-4 Card ' align="center">
                     <Project10 />
                   </div>
 
+                  {/* Taskably */}
                   <div className='column is-4 Card ' align="center">
                     <Project1 />
                   </div>
 
+                  {/* Eat Da Burger! */}
                   <div className='column is-4 Card' align="center">
                     <Project3 />
                   </div>
 
+                  {/* Employee Directory */}
                   <div className='column is-4 Card' align="center">
                     <Project4 />
                   </div>
 
+                  {/* Workout Tracker */}
                   <div className='column is-4 Card' align="center">
                     <Project5 />
                   </div>
 
+                  {/* Book vs Movie */}
                   <div className='column is-4 Card' align="center">
                     <Project6 />
                   </div>
 
+                  {/* Code Quiz */}
                   <div className='column is-4 Card' align="center">
                     <Project2 />
                   </div>
+
+                  {/* Budget Tracker */}
                   <div className='column is-4 Card' align="center">
                     <Project7 />
                   </div>
+
+                  {/* Password Generator */}
                   <div className='column is-4 Card' align="center">
                     <Project11 />
                   </div>
+
+                  {/* Team Generator */}
                   <div className='column is-4 Card' align="center">
                     <Project8 />
                   </div>
+
+                  {/* Employee Tracker */}
                   <div className='column is-4 Card' align="center">
                     <Project12 />
                   </div>
+
+                  {/* Previous Portfolio */}
                   <div className='column is-4 Card' align="center">
                     <Project9 />
                   </div>
