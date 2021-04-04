@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import Project1 from './Project1';
-import Project2 from './Project2';
+// import Project2 from './Project2';
 import Project3 from './Project3';
 import Project4 from './Project4';
 import Project5 from './Project5';
-import Project6 from './Project6';
-import Project7 from './Project7';
-import Project8 from './Project8';
-import Project9 from './Project9';
+// import Project6 from './Project6';
+// import Project7 from './Project7';
+// import Project8 from './Project8';
+// import Project9 from './Project9';
 import Project10 from './Project10';
-import Project11 from './Project11';
-import Project12 from './Project12';
+// import Project11 from './Project11';
+// import Project12 from './Project12';
 import Project13 from './Project13';
 import { Link } from 'react-router-dom';
 import '../../../src/styles.css';
@@ -76,39 +76,39 @@ class Portfolio extends Component {
                   </div>
 
                   {/* Book vs Movie */}
-                  <div className='column is-4 Card' align="center">
+                  {/* <div className='column is-4 Card' align="center">
                     <Project6 />
-                  </div>
+                  </div> */}
 
                   {/* Code Quiz */}
-                  <div className='column is-4 Card' align="center">
+                  {/* <div className='column is-4 Card' align="center">
                     <Project2 />
-                  </div>
+                  </div> */}
 
                   {/* Budget Tracker */}
-                  <div className='column is-4 Card' align="center">
+                  {/* <div className='column is-4 Card' align="center">
                     <Project7 />
-                  </div>
+                  </div> */}
 
                   {/* Password Generator */}
-                  <div className='column is-4 Card' align="center">
+                  {/* <div className='column is-4 Card' align="center">
                     <Project11 />
-                  </div>
+                  </div> */}
 
                   {/* Team Generator */}
-                  <div className='column is-4 Card' align="center">
+                  {/* <div className='column is-4 Card' align="center">
                     <Project8 />
-                  </div>
+                  </div> */}
 
                   {/* Employee Tracker */}
-                  <div className='column is-4 Card' align="center">
+                  {/* <div className='column is-4 Card' align="center">
                     <Project12 />
-                  </div>
+                  </div> */}
 
                   {/* Previous Portfolio */}
-                  <div className='column is-4 Card' align="center">
+                  {/* <div className='column is-4 Card' align="center">
                     <Project9 />
-                  </div>
+                  </div> */}
 
 
                 </div>
