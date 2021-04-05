@@ -19,8 +19,8 @@ const Header = (props) => {
                             <span aria-hidden='true'></span>
                             <span aria-hidden='true'></span>
                             <span aria-hidden='true'></span>
-                            <span aria-hidden='true'></span>
-                            <span aria-hidden='true'></span>
+                            {/* <span aria-hidden='true'></span>
+                            <span aria-hidden='true'></span> */}
                         </span>
                     </div>
                     <div id='navbarMenu' className='navbar-menu'>
