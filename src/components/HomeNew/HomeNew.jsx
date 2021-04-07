@@ -43,12 +43,12 @@ class Home extends Component {
                                     Click Here To Contact Me
                                 </Link>
                             </div>
-                            <div className='footer' >
-                            </div>
                         </div>
                     </div>
-                            <hr className='content-divider' />
-                                <Footer />
+                    <div className='footer' >
+                        <hr className='content-divider' />
+                        <Footer />
+                    </div>
 
                 </section>
 

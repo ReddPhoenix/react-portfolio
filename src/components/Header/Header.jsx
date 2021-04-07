@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../../assets/home/WG 4.5.21 Version 3.png';
+import './Header.css';
 
 
 const Header = (props) => {
@@ -15,6 +17,10 @@ const Header = (props) => {
             <nav className='navbar' role='navigation' aria-label='main navigation' >
                 <div className='container' id='navbar-background'>
                     <div className='navbar-brand'>
+                        
+                    
+                    
+                        
                         <span role='button' className='navbar-burger burger' aria-label='menu' aria-expanded='false' data-target='navbarMenu' onClick={toggleBurgerMenu}>
                             <span aria-hidden='true'></span>
                             <span aria-hidden='true'></span>
@@ -22,6 +28,9 @@ const Header = (props) => {
                             {/* <span aria-hidden='true'></span>
                             <span aria-hidden='true'></span> */}
                         </span>
+                            
+                        <img src={Logo} alt="taskably company logo" className='navbar-item-img' />
+                        
                     </div>
                     <div id='navbarMenu' className='navbar-menu'>
                         <div className='navbar-end'>

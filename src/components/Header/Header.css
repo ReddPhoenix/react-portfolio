@@ -1,0 +1,22 @@
+.navbar-item-img {
+    max-height: 12.75rem;
+    /* left: 25%;
+    top: 0;
+    margin-left: -60px !important; */
+}
+
+.navbar-item-img {
+    left: 25%;
+    top: 0;
+    margin-left: -60px !important;
+    margin-top: 0px;
+}
+
+@media screen and (min-width: 1023px) {
+    .navbar-item-img {
+        max-height: 9rem;
+        left: 10%;
+        margin-left: 5px;
+        position: absolute;
+    }
+}
