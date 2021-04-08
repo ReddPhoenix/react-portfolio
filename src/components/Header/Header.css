@@ -6,16 +6,16 @@
 }
 
 .navbar-item-img {
-    left: 25%;
+    left: 5%;
     top: 0;
-    margin-left: -60px !important;
     margin-top: 0px;
+    margin-left: 0px;
 }
 
 @media screen and (min-width: 1023px) {
     .navbar-item-img {
         max-height: 9rem;
-        left: 10%;
+        left: 0%;
         margin-left: 5px;
         position: absolute;
     }

@@ -28,10 +28,11 @@ const Header = (props) => {
                             {/* <span aria-hidden='true'></span>
                             <span aria-hidden='true'></span> */}
                         </span>
+                        <img src={Logo} alt="Walter Guerrero logo" className='navbar-item-img' />
                             
-                        <img src={Logo} alt="taskably company logo" className='navbar-item-img' />
-                        
+
                     </div>
+
                     <div id='navbarMenu' className='navbar-menu'>
                         <div className='navbar-end'>
                             <span className='navbar-item' onClick={toggleBurgerMenu}>
