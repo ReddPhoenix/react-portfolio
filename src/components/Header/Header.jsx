@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/home/WG 4.5.21 Version 3.png';
+// import Logo from '../../assets/home/WG 4.5.21 Version 3.png';
 import './Header.css';
 
 
@@ -28,7 +28,7 @@ const Header = (props) => {
                             {/* <span aria-hidden='true'></span>
                             <span aria-hidden='true'></span> */}
                         </span>
-                        <img src={Logo} alt="Walter Guerrero logo" className='navbar-item-img' />
+                        {/* <img src={Logo} alt="Walter Guerrero logo" className='navbar-item-img' /> */}
                             
 
                     </div>
