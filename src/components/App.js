@@ -6,8 +6,9 @@ import Home from './Home/Home';
 import Portfolio from '../../src/components/Cards/Portfolio.jsx';
 import Contact from '../../src/components/Contact/Contact.jsx';
 import ScrollToTop from './ScrollToTop';
-
 import HomeNew from './HomeNew/HomeNew.jsx';
+import TestHome from './HomeNew/TestHome.jsx';
+
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
                         <Route path ='/portfolio' component = {Portfolio} />
                         <Route path='/contact' component={Contact} />
                         <Route path='/homenew' component={HomeNew} />
+                        <Route path='/testhome' component={TestHome} />
                     </div> 
                 </Router>
             </>
