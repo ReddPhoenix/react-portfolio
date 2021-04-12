@@ -1,4 +1,5 @@
 import React from 'react'
+import './TestHome.css';
 
 function TestHome() {
     return (
@@ -203,7 +204,7 @@ function TestHome() {
                         </div>
                     </div>
                     {/* <!-- Begin Services Content --> */}
-  <div className="section-color services" id="services">
+                    <div className="section-color services" id="services">
                         <div className="container">
                             <div className="columns is-multiline">
                                 <div
@@ -354,7 +355,7 @@ function TestHome() {
                                     <a href="#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                            style="background-image: url('https://picsum.photos/320/180?image=0');"
+                                        // style="background-image: url('https://picsum.photos/320/180?image=0');"
                                         ></figure>
                                     </a>
                                 </div>
@@ -362,7 +363,7 @@ function TestHome() {
                                     <a href="#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                            style="background-image: url('https://picsum.photos/320/180?image=10');"
+                                        // style="background-image: url('https://picsum.photos/320/180?image=10');"
                                         ></figure>
                                     </a>
                                 </div>
@@ -370,7 +371,7 @@ function TestHome() {
                                     <a href="#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                            style="background-image: url('https://picsum.photos/320/180?image=20');"
+                                        // style="background-image: url('https://picsum.photos/320/180?image=20');"
                                         ></figure>
                                     </a>
                                 </div>
@@ -378,7 +379,7 @@ function TestHome() {
                                     <a href="#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                            style="background-image: url('https://picsum.photos/320/180?image=30');"
+                                        // style="background-image: url('https://picsum.photos/320/180?image=30');"
                                         ></figure>
                                     </a>
                                 </div>
@@ -386,7 +387,7 @@ function TestHome() {
                                     <a href="#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                            style="background-image: url('https://picsum.photos/320/180?image=40');"
+                                        // style="background-image: url('https://picsum.photos/320/180?image=40');"
                                         ></figure>
                                     </a>
                                 </div>
@@ -394,7 +395,7 @@ function TestHome() {
                                     <a href="#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                            style="background-image: url('https://picsum.photos/320/180?image=50');"
+                                        // style="background-image: url('https://picsum.photos/320/180?image=50');"
                                         ></figure>
                                     </a>
                                 </div>
@@ -402,7 +403,7 @@ function TestHome() {
                                     <a href="#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                            style="background-image: url('https://picsum.photos/320/180?image=60');"
+                                        // style="background-image: url('https://picsum.photos/320/180?image=60');"
                                         ></figure>
                                     </a>
                                 </div>
@@ -410,7 +411,7 @@ function TestHome() {
                                     <a href="#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                            style="background-image: url('https://picsum.photos/320/180?image=70');"
+                                        // style="background-image: url('https://picsum.photos/320/180?image=70');"
                                         ></figure>
                                     </a>
                                 </div>
