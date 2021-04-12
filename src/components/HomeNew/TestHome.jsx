@@ -3,8 +3,8 @@ import './TestHome.css';
 
 function TestHome() {
     return (
-        <div>
-            <body>
+        // <body>
+            <div>
                 {/* <!-- Begin Preloader --> */}
                 <div className="preloader-wrapper">
                     <div className="preloader">
@@ -352,66 +352,66 @@ function TestHome() {
                                     <h1 className="title has-text-centered section-title">My Work</h1>
                                 </div>
                                 <div className="column is-3">
-                                    <a href="#">
+                                    <a href="/#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                        // style="background-image: url('https://picsum.photos/320/180?image=0');"
+                                        src='https://picsum.photos/320/180?image=0'
                                         ></figure>
                                     </a>
                                 </div>
                                 <div className="column is-3">
-                                    <a href="#">
+                                    <a href="/#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                        // style="background-image: url('https://picsum.photos/320/180?image=10');"
+                                        src='https://picsum.photos/320/180?image=10'
                                         ></figure>
                                     </a>
                                 </div>
                                 <div className="column is-3">
-                                    <a href="#">
+                                    <a href="/#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                        // style="background-image: url('https://picsum.photos/320/180?image=20');"
+                                        src='https://picsum.photos/320/180?image=20'
                                         ></figure>
                                     </a>
                                 </div>
                                 <div className="column is-3">
-                                    <a href="#">
+                                    <a href="/#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                        // style="background-image: url('https://picsum.photos/320/180?image=30');"
+                                        src='https://picsum.photos/320/180?image=30'
                                         ></figure>
                                     </a>
                                 </div>
                                 <div className="column is-3">
-                                    <a href="#">
+                                    <a href="/#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                        // style="background-image: url('https://picsum.photos/320/180?image=40');"
+                                        src='https://picsum.photos/320/180?image=40'
                                         ></figure>
                                     </a>
                                 </div>
                                 <div className="column is-3">
-                                    <a href="#">
+                                    <a href="/#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                        // style="background-image: url('https://picsum.photos/320/180?image=50');"
+                                        src='https://picsum.photos/320/180?image=50'
                                         ></figure>
                                     </a>
                                 </div>
                                 <div className="column is-3">
-                                    <a href="#">
+                                    <a href="/#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                        // style="background-image: url('https://picsum.photos/320/180?image=60');"
+                                        src='https://picsum.photos/320/180?image=60'
                                         ></figure>
                                     </a>
                                 </div>
                                 <div className="column is-3">
-                                    <a href="#">
+                                    <a href="/#">
                                         <figure
                                             className="image is-2by1 work-item"
-                                        // style="background-image: url('https://picsum.photos/320/180?image=70');"
+                                        src='https://picsum.photos/320/180?image=70'
                                         ></figure>
                                     </a>
                                 </div>
@@ -500,8 +500,8 @@ function TestHome() {
     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
   </p>
                 </div>
-            </body>
-        </div>
+            </div>
+        /* </body> */
 
     )
 }

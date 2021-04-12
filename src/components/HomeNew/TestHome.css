@@ -319,7 +319,7 @@ body.preloader-site {
   overflow: hidden;
 }
 
-.preloader-wrapper {
+/* .preloader-wrapper {
   height: 100%;
   width: 100%;
   background: #1f2c6c;
@@ -327,7 +327,7 @@ body.preloader-site {
   top: 0;
   left: 0;
   z-index: 9999999;
-}
+} */
 
 .preloader-wrapper .preloader {
   position: absolute;
