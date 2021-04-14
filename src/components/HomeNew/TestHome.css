@@ -341,3 +341,10 @@ body.preloader-site {
 
 .white
 {color:ghostwhite}
+
+#Header {
+    background-color: rgba(196, 102, 102, 0);}
+
+div.Header-Component {
+    background-color: rgba(196, 102, 102, 0);
+  }
