@@ -87,7 +87,7 @@ function TestHome() {
                                     <div className="column is-offset-7">
 
                                         <h1 className="subtitle">Hey there, I'm</h1>
-                                        <h2 className="title">Walter</h2>
+                                        <h2 className="title">Walter Guerrero</h2>
                                         <h1 className="subtitle profession">A Full Stack Web Developer</h1>
                                     </div>
                                 </div>
