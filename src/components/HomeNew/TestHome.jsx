@@ -2,6 +2,10 @@ import React from 'react'
 import './TestHome.css';
 // import Header from '../Header/Header.jsx';
 
+// Projects
+import Chat from '../../assets/projects/ChatTest.gif';
+import ChatProject from '../Cards/Project13';
+
 function TestHome() {
     return (
 
@@ -370,17 +374,18 @@ function TestHome() {
                                 <a href="/#">
                                     <figure
                                         className="image is-2by1 work-item"
-                                        src='https://picsum.photos/320/180?image=0'
+                                        image={Chat}
                                     ></figure>
                                 </a>
                             </div>
                             <div className="column is-3">
-                                <a href="/#">
+                                <ChatProject />
+                                {/* <a href="/#">
                                     <figure
                                         className="image is-2by1 work-item"
                                         src='https://picsum.photos/320/180?image=10'
                                     ></figure>
-                                </a>
+                                </a> */}
                             </div>
                             <div className="column is-3">
                                 <a href="/#">
