@@ -1,6 +1,6 @@
 import React from 'react'
 import './TestHome.css';
-import Contact from '../Contact/Contact';
+import Contact from '../Contact/Contact-Form.jsx';
 // import Header from '../Header/Header.jsx';
 
 // Projects
@@ -443,7 +443,7 @@ function TestHome() {
 
                 {/* <!-- Begin Contact Content --> */}
 
-                {/* <Contact /> */}
+                <Contact />
 
                 {/* <div className="section-light contact" id="contact">
                     <div className="container">

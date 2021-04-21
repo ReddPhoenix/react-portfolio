@@ -86,7 +86,7 @@ h1.title {
   font-size: 5rem;
   font-weight: 300;
   line-height: 1.125;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&display=swap');
   font-family: 'Bodoni Moda', serif;
 }
