@@ -1,51 +1,40 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
 import PublishTwoToneIcon from '@material-ui/icons/PublishTwoTone';
-export default class ScrollToTopButton extends Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            is_visible: false
-        };
-    }
+export default function ScrollToTopButton() {
 
-    componentDidMount() {
-        let scrollComponent = this;
-        document.addEventListener('scroll', function (e) {
-            scrollComponent.toggleVisibility();
-        });
-    }
+    const [isVisible, setIsVisible] = useState(false);
 
-    toggleVisibility() {
+    const toggleVisibility = () => {
         if (window.pageYOffset > 300) {
-            this.setState({
-                is_visible: true
-            });
+            setIsVisible(true);
         } else {
-            this.setState({
-                is_visible: false
-            });
-        }
-    }
+            setIsVisible(false)
+        };
+    
+    };
 
-    scrollToTop() {
+    const scrollToTop = () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
-    }
+    };
 
-    render() {
-        const { is_visible } = this.state;
+    useEffect(() => {
+        window.addEventListener('scroll', toggleVisibility);
+    }, []);
 
-        return (
-            <div className='scroll-to-top'>
-                {is_visible && (
-                    <div onClick={() => this.scrollToTop()}>
-                        <PublishTwoToneIcon />
-                    </div>
-                )}
-            </div>
-        );
-    }
+
+    return (
+        <div className='scroll-to-top'>
+            {isVisible &&
+                <div onClick={scrollToTop}>
+                    <PublishTwoToneIcon />
+                </div>
+            }
+        </div>
+    );
+
 }
+
