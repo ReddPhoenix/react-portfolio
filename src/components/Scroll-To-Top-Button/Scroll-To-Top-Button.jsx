@@ -30,7 +30,7 @@ export default function ScrollToTopButton() {
         <div className='scroll-to-top'>
             {isVisible &&
                 <div onClick={scrollToTop}>
-                    <PublishTwoToneIcon />
+                    <PublishTwoToneIcon id='toTopIcon' />
                 </div>
             }
         </div>

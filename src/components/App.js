@@ -8,6 +8,9 @@ import Contact from '../../src/components/Contact/Contact.jsx';
 import ScrollToTop from './ScrollToTop';
 import HomeNew from './HomeNew/HomeNew.jsx';
 import TestHome from './HomeNew/TestHome.jsx';
+import ScrollToTopButton from '../components/Scroll-To-Top-Button/Scroll-To-Top-Button.jsx';
+import '../components/Scroll-To-Top-Button/Scroll-To-Top-Button.css';
+
 
 
 
@@ -23,7 +26,9 @@ class App extends Component {
                         <Route path='/contact' component={Contact} />
                         <Route path='/homenew' component={HomeNew} />
                         <Route path='/testhome' component={TestHome} />
-                    </div> 
+                   
+                    </div>
+                    <ScrollToTopButton />
                 </Router>
             </>
         );
