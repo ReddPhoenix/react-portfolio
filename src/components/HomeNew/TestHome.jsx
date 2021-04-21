@@ -1,5 +1,6 @@
 import React from 'react'
 import './TestHome.css';
+import Contact from '../Contact/Contact';
 // import Header from '../Header/Header.jsx';
 
 // Projects
@@ -186,7 +187,7 @@ function TestHome() {
                             <div className="column is-6 right-image " data-aos="fade-left">
                                 <img
                                     className="is-rounded"
-                                    src="https://picsum.photos/id/366/600/375"
+                                    src="https://images.unsplash.com/photo-1489945052260-4f21c52268b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
                                     alt=""
                                 />
                             </div>
@@ -439,8 +440,12 @@ function TestHome() {
                     </div>
                 </div>
                 {/* <!-- End Work Content --> */}
+
                 {/* <!-- Begin Contact Content --> */}
-                <div className="section-light contact" id="contact">
+
+                {/* <Contact /> */}
+
+                {/* <div className="section-light contact" id="contact">
                     <div className="container">
                         <div
                             className="columns is-multiline"
@@ -507,7 +512,7 @@ function TestHome() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* <!-- End Contact Content --> */}
             </div>
             {/* <!-- End Main Content --> */}
