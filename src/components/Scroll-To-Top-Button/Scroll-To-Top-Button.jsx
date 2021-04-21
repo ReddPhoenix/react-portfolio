@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import PublishTwoToneIcon from '@material-ui/icons/PublishTwoTone';
+// import PublishTwoToneIcon from '@material-ui/icons/PublishTwoTone';
+import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 
 export default function ScrollToTopButton() {
 
@@ -30,7 +31,7 @@ export default function ScrollToTopButton() {
         <div className='scroll-to-top'>
             {isVisible &&
                 <div onClick={scrollToTop}>
-                    <PublishTwoToneIcon id='toTopIcon' />
+                    <KeyboardArrowUpIcon id='toTopIcon'  />
                 </div>
             }
         </div>
