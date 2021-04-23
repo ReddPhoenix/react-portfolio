@@ -377,7 +377,7 @@ function TestHome() {
                                 <h1 className="title has-text-centered section-title">My Projects</h1>
                             </div>
                             {/* React Slack Clone */}
-                            <div className="column is-3">
+                            <div className="column is-4">
                                 <ChatProject />
                                 {/* <a href="/#">
                                     <figure
@@ -387,7 +387,7 @@ function TestHome() {
                                 </a> */}
                             </div>
                             {/* Taskably 2.0 */}
-                            <div className="column is-3">
+                            <div className="column is-4">
                                 <Taskably2 />
                                 {/* <a href="/#">
                                     <figure
@@ -397,7 +397,7 @@ function TestHome() {
                                 </a> */}
                             </div>
                             {/* Taskably 1.0 */}
-                            <div className="column is-3">
+                            <div className="column is-4">
                                 <Taskably1 />
                                 {/* <a href="/#">
                                     <figure
@@ -407,7 +407,7 @@ function TestHome() {
                                 </a> */}
                             </div>
                             {/* Eat Da Burger! */}
-                            <div className="column is-3">
+                            <div className="column is-4">
                                 <EatDaBurger />
                                 {/* <a href="/#">
                                     <figure
@@ -417,7 +417,7 @@ function TestHome() {
                                 </a> */}
                             </div>
                             {/* Employee Directory */}
-                            <div className="column is-3">
+                            <div className="column is-4">
                                 <EmployeeDirectory />
                                 {/* <a href="/#">
                                     <figure
@@ -427,7 +427,7 @@ function TestHome() {
                                 </a> */}
                             </div>
                             {/* Workout Tracker */}
-                            <div className="column is-3">
+                            <div className="column is-4">
                                 <WorkoutTracker />
                                 {/* <a href="/#">
                                     <figure
@@ -436,7 +436,7 @@ function TestHome() {
                                     ></figure>
                                 </a> */}
                             </div>
-                            <div className="column is-3">
+                            {/* <div className="column is-3">
                                 <a href="/#">
                                     <figure
                                         className="image is-2by1 work-item"
@@ -451,7 +451,7 @@ function TestHome() {
                                         src='https://picsum.photos/320/180?image=70'
                                     ></figure>
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
