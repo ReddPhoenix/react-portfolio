@@ -369,7 +369,7 @@ function TestHome() {
                             data-aos-easing="linear"
                         >
                             <div className="column is-12">
-                                <h1 className="title has-text-centered section-title">My Work</h1>
+                                <h1 className="title has-text-centered section-title">My Projects</h1>
                             </div>
                             <div className="column is-3">
                                 <ChatProject />
