@@ -27,12 +27,12 @@ export default function ImgMediaCard() {
           alt="Project 1"
           height="140"
           image={image1}
-          title="Taskably"
+          title="Taskably 1.0"
           className="image-border"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Taskably
+            Taskably 1.0
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             A program to manage products, orders, employees, and customers.

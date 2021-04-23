@@ -7,6 +7,7 @@ import Contact from '../Contact/Contact-Form.jsx';
 import Chat from '../../assets/projects/ChatTest.gif';
 import ChatProject from '../Cards/Project13';
 import Taskably2 from '../Cards/Project10';
+import Taskably1 from '../Cards/Project1';
 
 function TestHome() {
     return (
@@ -392,13 +393,15 @@ function TestHome() {
                                     ></figure>
                                 </a> */}
                             </div>
+                            {/* Taskably 1.0 */}
                             <div className="column is-3">
-                                <a href="/#">
+                                <Taskably1 />
+                                {/* <a href="/#">
                                     <figure
                                         className="image is-2by1 work-item"
                                         src='https://picsum.photos/320/180?image=20'
                                     ></figure>
-                                </a>
+                                </a> */}
                             </div>
                             <div className="column is-3">
                                 <a href="/#">
