@@ -10,6 +10,7 @@ import Taskably2 from '../Cards/Project10';
 import Taskably1 from '../Cards/Project1';
 import EatDaBurger from '../Cards/Project3';
 import EmployeeDirectory from '../Cards/Project4';
+import WorkoutTracker from '../Cards/Project5';
 
 function TestHome() {
     return (
@@ -425,13 +426,15 @@ function TestHome() {
                                     ></figure>
                                 </a> */}
                             </div>
+                            {/* Workout Tracker */}
                             <div className="column is-3">
-                                <a href="/#">
+                                <WorkoutTracker />
+                                {/* <a href="/#">
                                     <figure
                                         className="image is-2by1 work-item"
                                         src='https://picsum.photos/320/180?image=50'
                                     ></figure>
-                                </a>
+                                </a> */}
                             </div>
                             <div className="column is-3">
                                 <a href="/#">
