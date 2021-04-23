@@ -372,15 +372,15 @@ function TestHome() {
                                 <h1 className="title has-text-centered section-title">My Work</h1>
                             </div>
                             <div className="column is-3">
-                                <a href="/#">
+                                <ChatProject />
+                                {/* <a href="/#">
                                     <figure
                                         className="image is-2by1 work-item"
                                         image={Chat}
                                     ></figure>
-                                </a>
+                                </a> */}
                             </div>
                             <div className="column is-3">
-                                <ChatProject />
                                 {/* <a href="/#">
                                     <figure
                                         className="image is-2by1 work-item"
