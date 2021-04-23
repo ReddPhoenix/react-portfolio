@@ -6,6 +6,7 @@ import Contact from '../Contact/Contact-Form.jsx';
 // Projects
 import Chat from '../../assets/projects/ChatTest.gif';
 import ChatProject from '../Cards/Project13';
+import Taskably2 from '../Cards/Project10';
 
 function TestHome() {
     return (
@@ -371,6 +372,7 @@ function TestHome() {
                             <div className="column is-12">
                                 <h1 className="title has-text-centered section-title">My Projects</h1>
                             </div>
+                            {/* React Slack Clone */}
                             <div className="column is-3">
                                 <ChatProject />
                                 {/* <a href="/#">
@@ -380,7 +382,9 @@ function TestHome() {
                                     ></figure>
                                 </a> */}
                             </div>
+                            {/* Taskably 2.0 */}
                             <div className="column is-3">
+                                <Taskably2 />
                                 {/* <a href="/#">
                                     <figure
                                         className="image is-2by1 work-item"
