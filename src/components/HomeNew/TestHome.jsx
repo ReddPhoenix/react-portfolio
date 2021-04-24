@@ -1,10 +1,12 @@
 import React from 'react'
 import './TestHome.css';
 import Contact from '../Contact/Contact-Form.jsx';
+import Video from '../../assets/home/smoke.mp4';
+
 // import Header from '../Header/Header.jsx';
 
 // Projects
-import Chat from '../../assets/projects/ChatTest.gif';
+// import Chat from '../../assets/projects/ChatTest.gif';
 import ChatProject from '../Cards/Project13';
 import Taskably2 from '../Cards/Project10';
 import Taskably1 from '../Cards/Project1';
@@ -142,7 +144,7 @@ function TestHome() {
             {/* <!-- Begin Main Content --> */}
             <div className="main-content">
                 {/* <!-- Begin About Me Section --> */}
-                <div className="section-light about-me" id="about-me">
+                <div className="section-dark about-me" id="about-me">
                     <div className="container">
                         <div className="column is-12 about-me">
                             <h1 className="title has-text-centered section-title">About Me</h1>
@@ -327,7 +329,7 @@ function TestHome() {
                 </div>
                 {/* <!-- End Services Content --> */}
                 {/* <!-- Begin Skills Content --> */}
-                <div className="section-light skills" id="skills">
+                <div className="section-dark skills" id="skills">
                     <div className="container">
                         <div className="columns is-multiline">
                             <div className="column is-12 about-me">
@@ -366,7 +368,25 @@ function TestHome() {
                 </div>
                 {/* <!-- End Skills Content --> */}
                 {/* <!-- Begin Work Content --> */}
-                <div className="section-dark my-work" id="my-work">
+                <div className="section-light my-work" id="my-work">
+                <div className="fullscreen-video-wrap video-container " >
+                        <video
+                            autoPlay
+                            loop
+                            muted
+                            style={{
+                                position: 'fixed',
+                                width: '100%',
+                                left: '50%',
+                                top: '50%',
+                                height: '100%',
+                                objectFit: 'cover',
+                                transform: 'translate(-50%, -50%)',
+                                zIndex: '-1'
+                            }}>
+                            <source src={Video} autoPlay={true} loop={true} muted type='video/mp4' />
+                        </video>
+                    </div>
                     <div className="container">
                         <div
                             className="columns is-multiline"
