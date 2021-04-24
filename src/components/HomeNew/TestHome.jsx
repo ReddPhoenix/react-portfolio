@@ -186,7 +186,7 @@ function TestHome() {
                                             <strong>View my GitHub Portfolio</strong>
                                         </p>
                                         <p className="subheading">
-                                        https://github.com/ReddPhoenix
+                                            https://github.com/ReddPhoenix
                                             </p>
                                     </div>
                                 </div>
@@ -368,25 +368,7 @@ function TestHome() {
                 </div>
                 {/* <!-- End Skills Content --> */}
                 {/* <!-- Begin Work Content --> */}
-                <div className="section-light my-work" id="my-work">
-                <div className="fullscreen-video-wrap video-container " >
-                        <video
-                            autoPlay
-                            loop
-                            muted
-                            style={{
-                                position: 'fixed',
-                                width: '100%',
-                                left: '50%',
-                                top: '50%',
-                                height: '100%',
-                                objectFit: 'cover',
-                                transform: 'translate(-50%, -50%)',
-                                zIndex: '-1'
-                            }}>
-                            <source src={Video} autoPlay={true} loop={true} muted type='video/mp4' />
-                        </video>
-                    </div>
+                <div className="section-color services" id="services">
                     <div className="container">
                         <div
                             className="columns is-multiline"
