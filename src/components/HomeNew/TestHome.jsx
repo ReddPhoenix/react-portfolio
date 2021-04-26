@@ -1,7 +1,7 @@
 import React from 'react'
 import './TestHome.css';
 import Contact from '../Contact/Contact-Form.jsx';
-import Video from '../../assets/home/smoke.mp4';
+// import Video from '../../assets/home/smoke.mp4';
 
 // import Header from '../Header/Header.jsx';
 
