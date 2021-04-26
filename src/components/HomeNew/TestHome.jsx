@@ -1,6 +1,7 @@
 import React from 'react'
 import './TestHome.css';
 import Contact from '../Contact/Contact-Form.jsx';
+import { FcSmartphoneTablet } from 'react-icons/fc';
 // import Video from '../../assets/home/smoke.mp4';
 
 // import Header from '../Header/Header.jsx';
@@ -253,7 +254,7 @@ function TestHome() {
                                     data-aos="fade-in"
                                     data-aos-easing="linear"
                                 >
-                                    <i className="fad fa-meteor fa-3x"></i>
+                                    <i className="fad fa-meteor fa-3x"><FcSmartphoneTablet /> </i>
                                     <hr />
                                     <h2>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
