@@ -1,5 +1,6 @@
 import React from 'react'
 import './TestHome.css';
+import { HashLink as Link } from 'react-router-hash-link';
 import Contact from '../Contact/Contact-Form.jsx';
 import { IconContext } from "react-icons";
 import { FcSmartphoneTablet } from 'react-icons/fc';
@@ -135,22 +136,22 @@ function TestHome() {
                                 <div className="column is-12 hero-menu-desktop has-text-centered">
                                     <ul>
                                         <li className="is-active">
-                                            <a href="#home">Home</a>
+                                            <Link smooth to ="#home">Home</Link>
                                         </li>
                                         <li>
-                                            <a href="#about-me">About Me</a>
+                                            <Link smooth to ="#about-me">About Me</Link>
                                         </li>
                                         <li>
-                                            <a href="#services">Services</a>
+                                            <Link smooth to="#services">Services</Link>
                                         </li>
                                         <li>
-                                            <a href="#skills">Skills</a>
+                                            <Link smooth to ="#skills">Skills</Link>
                                         </li>
                                         <li>
-                                            <a href="#my-work">My Work</a>
+                                            <Link smooth to ="#my-work">My Work</Link>
                                         </li>
                                         <li>
-                                            <a href="#contact">Contact</a>
+                                            <Link smooth to ="#contact">Contact</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -417,7 +418,7 @@ function TestHome() {
                 </div>
                 {/* <!-- End Skills Content --> */}
                 {/* <!-- Begin Work Content --> */}
-                <div className="section-color services" id="services">
+                <div className="section-color services" id="my-work">
                     <div className="container">
                         <div
                             className="columns is-multiline"
@@ -425,7 +426,7 @@ function TestHome() {
                             data-aos-easing="linear"
                         >
                             <div className="column is-12">
-                                <h1 className="title has-text-centered section-title">My Projects</h1>
+                                <h1 className="title has-text-centered section-title">My Work</h1>
                             </div>
                             {/* React Slack Clone */}
                             <div className="column is-4">
@@ -509,9 +510,10 @@ function TestHome() {
                 {/* <!-- End Work Content --> */}
 
                 {/* <!-- Begin Contact Content --> */}
-
-                <Contact />
-
+                
+                <div id='contact'>
+                    <Contact />
+                </div>
                 {/* <div className="section-light contact" id="contact">
                     <div className="container">
                         <div
