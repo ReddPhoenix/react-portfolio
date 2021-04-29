@@ -237,7 +237,7 @@ function TestHome() {
                                     </h1>
                             </div>
                             <div className="column is-10 has-text-centered is-offset-1">
-                                <h2 className="subtitle">
+                                <h2 className="subtitle" id='resume-subtitle'>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                     eiusmod tempor incididunt ut labore et doloremagna aliqua
                                     </h2>

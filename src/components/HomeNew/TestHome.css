@@ -108,8 +108,11 @@ html {
   height: 400px;
   padding-top: 100px;
   color: #3c4172;
-
   background-color: #bdbdbd;
+}
+
+#resume-subtitle {
+  color: #3c4172;
 }
 
 @media (max-width: 599px) {
