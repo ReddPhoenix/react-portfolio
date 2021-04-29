@@ -1,7 +1,27 @@
 import React from 'react'
 import './TestHome.css';
 import Contact from '../Contact/Contact-Form.jsx';
+import { IconContext } from "react-icons";
 import { FcSmartphoneTablet } from 'react-icons/fc';
+import { FaReact } from 'react-icons/fa';
+import { BiTransferAlt } from 'react-icons/bi';
+import { VscServer } from 'react-icons/vsc';
+import { MdCompareArrows } from 'react-icons/md';
+import { FaLaptopCode } from 'react-icons/fa';
+import { IoMdCodeWorking } from 'react-icons/io';
+
+
+import { Icon } from 'react-icons-kit';
+import { database } from 'react-icons-kit/fa/database';
+import { paintBrush } from 'react-icons-kit/fa/paintBrush';
+import { laptop } from 'react-icons-kit/fa/laptop';
+import { tablet } from 'react-icons-kit/fa/tablet';
+import { mobilePhone } from 'react-icons-kit/fa/mobilePhone';
+import { arrowRight } from 'react-icons-kit/fa/arrowRight';
+import { mobileCombo } from 'react-icons-kit/entypo/mobileCombo';
+
+
+
 // import Video from '../../assets/home/smoke.mp4';
 
 // import Header from '../Header/Header.jsx';
@@ -254,7 +274,13 @@ function TestHome() {
                                     data-aos="fade-in"
                                     data-aos-easing="linear"
                                 >
-                                    <i className="fad fa-meteor fa-3x"><FcSmartphoneTablet /> </i>
+                                    <Icon size={45} icon={mobileCombo} />
+                                    {/* <Icon size={45} icon={laptop} />
+                                    <Icon size={32} icon={arrowRight} /> */}
+                                    {/* <Icon size={35} icon={tablet} />
+                                    <Icon size={15} icon={arrowRight} /> */}
+                                    {/* <Icon size={45} icon={mobilePhone} /> */}
+                                    <i className="fad fa-meteor fa-3x"></i>
                                     <hr />
                                     <h2>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -266,7 +292,8 @@ function TestHome() {
                                     data-aos="fade-in"
                                     data-aos-easing="linear"
                                 >
-                                    <i className="fas fa-paint-brush fa-3x"></i>
+                                    <Icon size={45} icon={paintBrush} />
+                                    {/* <i className="fas fa-paint-brush fa-3x"></i> */}
                                     <hr />
                                     <h2>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -278,7 +305,8 @@ function TestHome() {
                                     data-aos="fade-in"
                                     data-aos-easing="linear"
                                 >
-                                    <i className="fas fa-rocket fa-3x"></i>
+                                    <Icon size={45} icon={database} />
+                                    {/* <i className="fas fa-rocket fa-3x"></i> */}
                                     <hr />
                                     <h2>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -293,7 +321,12 @@ function TestHome() {
                                     data-aos="fade-in"
                                     data-aos-easing="linear"
                                 >
-                                    <i className="fas fa-upload fa-3x"></i>
+                                    <IconContext.Provider value={{ size: '2.5em' }}>
+                                        <div>
+                                            <FaReact />
+                                        </div>
+                                    </IconContext.Provider>
+                                    {/* <i className="fas fa-upload fa-3x"></i> */}
                                     <hr />
                                     <h2>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -305,7 +338,15 @@ function TestHome() {
                                     data-aos="fade-in"
                                     data-aos-easing="linear"
                                 >
-                                    <i className="fas fa-bus fa-3x"></i>
+                                    <IconContext.Provider value={{ size: '2.5em' }}>
+                                        <div>
+                                            <IoMdCodeWorking />
+                                        </div>
+                                    </IconContext.Provider>
+
+
+
+                                    {/* <i className="fas fa-bus fa-3x"></i> */}
                                     <hr />
                                     <h2>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -317,7 +358,13 @@ function TestHome() {
                                     data-aos="fade-in"
                                     data-aos-easing="linear"
                                 >
-                                    <i className="fas fa-code fa-3x"></i>
+                                    <IconContext.Provider value={{ size: '2.5em' }}>
+                                        <div>
+                                            <FaLaptopCode />
+                                            <MdCompareArrows />
+                                            <VscServer />
+                                        </div>
+                                    </IconContext.Provider>
                                     <hr />
                                     <h2>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
