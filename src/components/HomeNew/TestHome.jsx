@@ -9,6 +9,7 @@ import { VscServer } from 'react-icons/vsc';
 import { MdCompareArrows } from 'react-icons/md';
 import { FaLaptopCode } from 'react-icons/fa';
 import { IoMdCodeWorking } from 'react-icons/io';
+import { FaDownload } from 'react-icons/fa';
 
 
 import { Icon } from 'react-icons-kit';
@@ -244,7 +245,7 @@ function TestHome() {
                                     <button className="button" target='_blank' rel='noreferrer noopener'
                                         // 2021 April PDF Resume 4.2.21
                                         href='https://drive.google.com/file/d/1O8LBf2PSAyN0VCEy8zbzUuIQQ5gar5Ao/view?usp=sharing'>
-                                        Download Resume&emsp;<i className="fad fa-download fa-lg"></i>
+                                        Download Resume&emsp;<FaDownload />
                                     </button>
                                 </form>
                             </div>
