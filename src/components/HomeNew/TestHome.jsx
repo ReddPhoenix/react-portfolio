@@ -2,34 +2,21 @@ import React from 'react'
 import './TestHome.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import Contact from '../Contact/Contact-Form.jsx';
+
+// Icons
 import { IconContext } from "react-icons";
-import { FcSmartphoneTablet } from 'react-icons/fc';
 import { FaReact } from 'react-icons/fa';
-import { BiTransferAlt } from 'react-icons/bi';
 import { VscServer } from 'react-icons/vsc';
 import { MdCompareArrows } from 'react-icons/md';
 import { FaLaptopCode } from 'react-icons/fa';
 import { IoMdCodeWorking } from 'react-icons/io';
 import { FaDownload } from 'react-icons/fa';
-
-
 import { Icon } from 'react-icons-kit';
 import { database } from 'react-icons-kit/fa/database';
 import { paintBrush } from 'react-icons-kit/fa/paintBrush';
-import { laptop } from 'react-icons-kit/fa/laptop';
-import { tablet } from 'react-icons-kit/fa/tablet';
-import { mobilePhone } from 'react-icons-kit/fa/mobilePhone';
-import { arrowRight } from 'react-icons-kit/fa/arrowRight';
 import { mobileCombo } from 'react-icons-kit/entypo/mobileCombo';
 
-
-
-// import Video from '../../assets/home/smoke.mp4';
-
-// import Header from '../Header/Header.jsx';
-
 // Projects
-// import Chat from '../../assets/projects/ChatTest.gif';
 import ChatProject from '../Cards/Project13';
 import Taskably2 from '../Cards/Project10';
 import Taskably1 from '../Cards/Project1';
