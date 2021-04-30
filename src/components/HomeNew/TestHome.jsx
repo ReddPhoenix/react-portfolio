@@ -237,23 +237,21 @@ function TestHome() {
                                     <Icon size={45} icon={mobileCombo} />
                                     <hr />
                                     <h2>
-                                        Responsive web design where your concept appears visually accurate no matter the screen size
+                                        Responsive web design where your concept appears accurate no matter the screen size
                                         </h2>
                                 </div>
                                 <div className="column is-4 has-text-centered">
                                     <Icon size={45} icon={paintBrush} />
                                     <hr />
                                     <h2>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                        Visuals that engage user experience with CSS3 and Sass
                                         </h2>
                                 </div>
                                 <div className="column is-4 has-text-centered">
                                     <Icon size={45} icon={database} />
                                     <hr />
                                     <h2>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                        Maintain information using either a structured SQL database or a dynamic NoSQL database 
                                         </h2>
                                 </div>
                             </div>
@@ -267,8 +265,7 @@ function TestHome() {
                                     </IconContext.Provider>
                                     <hr />
                                     <h2>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                        MERN (MongoDB Express React Node) Stack navigates application development from user interface to data management  
                                         </h2>
                                 </div>
                                 <div className="column is-4 has-text-centered">
@@ -279,8 +276,7 @@ function TestHome() {
                                     </IconContext.Provider>
                                     <hr />
                                     <h2>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                        Clean, concise and readable code to ensure functionality in your application
                                         </h2>
                                 </div>
                                 <div className="column is-4 has-text-centered">
@@ -293,8 +289,7 @@ function TestHome() {
                                     </IconContext.Provider>
                                     <hr />
                                     <h2>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                        API development and integration to leverage applications and web services to your needs 
                                         </h2>
                                 </div>
                             </div>
