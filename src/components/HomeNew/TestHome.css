@@ -263,13 +263,13 @@ html {
   line-height: 25px;
   text-align: center;
   background: #1f2c6c;
-  color: whitesmoke;
+  color: rgb(7, 7, 7);
   padding-top: 2rem;
 }
 
 .footer a {
-  padding: 0rem 1rem 1rem 1rem;
-  color: lightgrey;
+  padding: 0rem 0rem 0.5rem 0.5rem;
+  color: rgb(0, 99, 248);
 }
 
 .footer a i {
@@ -278,7 +278,7 @@ html {
 }
 
 .footer a .nav-item {
-  color: whitesmoke;
+  color: rgb(28, 4, 241);
 }
 
 .fa-download {
