@@ -226,10 +226,8 @@ function TestHome() {
                             <div className="column is-12 about-me">
                                 <h1 className="title has-text-centered section-title">Services</h1>
 
-                                <h2 className="subtitle">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                    </h2>
+                                <h2 className="subtitle has-text-centered">
+                                    Wondering what a full stack web developer such as myself can do for you?  </h2>
                                 <br />
                             </div>
                             <div className="columns is-12">
