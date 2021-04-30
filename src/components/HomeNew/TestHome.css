@@ -100,7 +100,8 @@ html {
 }
 
 .main-content .section-dark {
-  background-color: #f0f3f5;
+  /* background-color: #f0f3f5; */
+  background-color: rgb(0 0 0 / 19%);
   padding: 60px 0px;
 }
 
