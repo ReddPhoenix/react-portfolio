@@ -32,25 +32,9 @@ function TestHome() {
                 {/* <Header className='is-transparent' id='Header' /> */}
             </div>
             <div>
-                {/* <!-- Begin Preloader --> */}
-                {/* <div className="preloader-wrapper">
-                <div className="preloader">
-                    <img src="img/preloader.gif" alt="" />
-                </div>
-            </div> */}
-                {/* <!-- End Preloader--> */}
-
-                {/* <!-- Begin Scroll Up Button --> */}
-
-                {/* <form action="#home">
-                    <button id="toTop" title="Go to top">
-                        <i className="fas fa-angle-up"></i>
-                    </button>
-                </form> */}
-                {/* <!-- End Scroll Up Button --> */}
-
                 {/* <!-- Begin Header --> */}
                 {/* <div className="header-wrapper" id="home"> */}
+                
                 {/* <!-- Begin Hero --> */}
                 <section className="hero is-large">
                     {/* <!-- Begin Mobile Nav --> */}
@@ -116,6 +100,7 @@ function TestHome() {
                         </div>
                     </div>
                     {/* <!-- End Hero Content--> */}
+
                     {/* <!-- Begin Hero Menu --> */}
                     <div className="hero-foot ">
                         <div className="hero-foot--wrapper">
@@ -153,6 +138,7 @@ function TestHome() {
 
             {/* <!-- Begin Main Content --> */}
             <div className="main-content">
+                
                 {/* <!-- Begin About Me Section --> */}
                 <div className="section-dark about-me" id="about-me">
                     <div className="container">
@@ -160,10 +146,7 @@ function TestHome() {
                             <h1 className="title has-text-centered section-title">About Me</h1>
                         </div>
                         <div className="columns is-multiline">
-                            <div
-                                className="column is-6 has-vertically-aligned-content"
-                                data-aos="fade-right"
-                            >
+                            <div className="column is-6 has-vertically-aligned-content">
                                 <p className="is-larger">
                                     &emsp;&emsp;<strong
                                     >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, beatae? </strong>
@@ -171,25 +154,17 @@ function TestHome() {
                                 <br />
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae, voluptatibus iusto animi accusamus eaque adipisci nemo? Dicta neque, numquam, sit, perspiciatis voluptatem dolore asperiores aliquid aperiam quasi at esse!
-          </p>
+                                </p>
                                 <br />
                                 <div className="is-divider"></div>
                                 <div className="columns about-links">
-                                    {/* <div className="column">
-                                        <p className="heading">
-                                            <strong>Give me a ring</strong>
-                                        </p>
-                                        <p className="subheading">
-                                            123-456-7890
-                                        </p>
-                                    </div> */}
                                     <div className="column">
                                         <p className="heading">
                                             <strong>Email Me</strong>
                                         </p>
                                         <p className="subheading">
                                             wsguerrero@gmail.com
-              </p>
+                                        </p>
                                     </div>
                                     <div className="column">
                                         <p className="heading">
@@ -197,13 +172,13 @@ function TestHome() {
                                         </p>
                                         <p className="subheading">
                                             https://github.com/ReddPhoenix
-                                            </p>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="column is-6 right-image" data-aos="fade-left">
+                            <div className="column is-mobile is-three-quarters-mobile is-center right-image" data-aos="fade-left">
                                 <img
-                                    className="is-round image" id='aboutMeImage'
+                                    className="is-round image  " id='aboutMeImage'
                                     src="https://images.unsplash.com/photo-1489945052260-4f21c52268b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
                                     alt="Hola LEDs"
                                 />
@@ -212,6 +187,8 @@ function TestHome() {
                     </div>
                 </div>
                 {/* <!-- End About Me Content --> */}
+
+                {/* Begin Resume Content */}
                 <div className="section-dark resume">
                     <div className="container">
                         <div
@@ -240,15 +217,13 @@ function TestHome() {
                         </div>
                     </div>
                 </div>
+                {/* End Resume Content */}
+                
                 {/* <!-- Begin Services Content --> */}
                 <div className="section-color services" id="services">
                     <div className="container">
                         <div className="columns is-multiline">
-                            <div
-                                className="column is-12 about-me"
-                                data-aos="fade-in"
-                                data-aos-easing="linear"
-                            >
+                            <div className="column is-12 about-me">
                                 <h1 className="title has-text-centered section-title">Services</h1>
 
                                 <h2 className="subtitle">
@@ -258,44 +233,23 @@ function TestHome() {
                                 <br />
                             </div>
                             <div className="columns is-12">
-                                <div
-                                    className="column is-4 has-text-centered"
-                                    data-aos="fade-in"
-                                    data-aos-easing="linear"
-                                >
+                                <div className="column is-4 has-text-centered">
                                     <Icon size={45} icon={mobileCombo} />
-                                    {/* <Icon size={45} icon={laptop} />
-                                    <Icon size={32} icon={arrowRight} /> */}
-                                    {/* <Icon size={35} icon={tablet} />
-                                    <Icon size={15} icon={arrowRight} /> */}
-                                    {/* <Icon size={45} icon={mobilePhone} /> */}
-                                    <i className="fad fa-meteor fa-3x"></i>
                                     <hr />
                                     <h2>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                                        Responsive web design where your concept appears visually accurate no matter the screen size
                                         </h2>
                                 </div>
-                                <div
-                                    className="column is-4 has-text-centered"
-                                    data-aos="fade-in"
-                                    data-aos-easing="linear"
-                                >
+                                <div className="column is-4 has-text-centered">
                                     <Icon size={45} icon={paintBrush} />
-                                    {/* <i className="fas fa-paint-brush fa-3x"></i> */}
                                     <hr />
                                     <h2>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                         do eiusmod tempor incididunt ut labore et dolore magna aliqua
                                         </h2>
                                 </div>
-                                <div
-                                    className="column is-4 has-text-centered"
-                                    data-aos="fade-in"
-                                    data-aos-easing="linear"
-                                >
+                                <div className="column is-4 has-text-centered">
                                     <Icon size={45} icon={database} />
-                                    {/* <i className="fas fa-rocket fa-3x"></i> */}
                                     <hr />
                                     <h2>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -305,48 +259,31 @@ function TestHome() {
                             </div>
                             <hr />
                             <div className="columns is-12">
-                                <div
-                                    className="column is-4 has-text-centered"
-                                    data-aos="fade-in"
-                                    data-aos-easing="linear"
-                                >
+                                <div className="column is-4 has-text-centered">
                                     <IconContext.Provider value={{ size: '2.5em' }}>
                                         <div>
                                             <FaReact />
                                         </div>
                                     </IconContext.Provider>
-                                    {/* <i className="fas fa-upload fa-3x"></i> */}
                                     <hr />
                                     <h2>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                         do eiusmod tempor incididunt ut labore et dolore magna aliqua
                                         </h2>
                                 </div>
-                                <div
-                                    className="column is-4 has-text-centered"
-                                    data-aos="fade-in"
-                                    data-aos-easing="linear"
-                                >
+                                <div className="column is-4 has-text-centered">
                                     <IconContext.Provider value={{ size: '2.5em' }}>
                                         <div>
                                             <IoMdCodeWorking />
                                         </div>
                                     </IconContext.Provider>
-
-
-
-                                    {/* <i className="fas fa-bus fa-3x"></i> */}
                                     <hr />
                                     <h2>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                         do eiusmod tempor incididunt ut labore et dolore magna aliqua
                                         </h2>
                                 </div>
-                                <div
-                                    className="column is-4 has-text-centered"
-                                    data-aos="fade-in"
-                                    data-aos-easing="linear"
-                                >
+                                <div className="column is-4 has-text-centered">
                                     <IconContext.Provider value={{ size: '2.5em' }}>
                                         <div>
                                             <FaLaptopCode />
@@ -372,11 +309,7 @@ function TestHome() {
                             <div className="column is-12 about-me">
                                 <h1 className="title has-text-centered section-title">Skills</h1>
                             </div>
-                            <div
-                                className="column is-6"
-                                data-aos="fade-in"
-                                data-aos-easing="linear"
-                            >
+                            <div className="column is-6">
                                 <h1>HTML</h1>
                                 <progress className="progress" value="80" max="100">80%</progress>
                                 <h1>CSS</h1>
@@ -386,11 +319,7 @@ function TestHome() {
                                 <h1>MongoDB Express React Node (MERN)</h1>
                                 <progress className="progress" value="60" max="100">60%</progress>
                             </div>
-                            <div
-                                className="column is-6"
-                                data-aos="fade-in"
-                                data-aos-easing="linear"
-                            >
+                            <div className="column is-6">
                                 <h1>API</h1>
                                 <progress className="progress" value="67" max="100">67%</progress>
                                 <h1>SQL / NoSQL Databases</h1>
@@ -407,90 +336,34 @@ function TestHome() {
                 {/* <!-- Begin Work Content --> */}
                 <div className="section-color services" id="my-work">
                     <div className="container">
-                        <div
-                            className="columns is-multiline"
-                            data-aos="fade-in"
-                            data-aos-easing="linear"
-                        >
+                        <div className="columns is-multiline">
                             <div className="column is-12">
                                 <h1 className="title has-text-centered section-title">My Work</h1>
                             </div>
                             {/* React Slack Clone */}
                             <div className="column is-4">
                                 <ChatProject />
-                                {/* <a href="/#">
-                                    <figure
-                                        className="image is-2by1 work-item"
-                                        image={Chat}
-                                    ></figure>
-                                </a> */}
                             </div>
                             {/* Taskably 2.0 */}
                             <div className="column is-4">
                                 <Taskably2 />
-                                {/* <a href="/#">
-                                    <figure
-                                        className="image is-2by1 work-item"
-                                        src='https://picsum.photos/320/180?image=10'
-                                    ></figure>
-                                </a> */}
                             </div>
                             {/* Taskably 1.0 */}
                             <div className="column is-4">
                                 <Taskably1 />
-                                {/* <a href="/#">
-                                    <figure
-                                        className="image is-2by1 work-item"
-                                        src='https://picsum.photos/320/180?image=20'
-                                    ></figure>
-                                </a> */}
                             </div>
                             {/* Eat Da Burger! */}
                             <div className="column is-4">
                                 <EatDaBurger />
-                                {/* <a href="/#">
-                                    <figure
-                                        className="image is-2by1 work-item"
-                                        src='https://picsum.photos/320/180?image=30'
-                                    ></figure>
-                                </a> */}
                             </div>
                             {/* Employee Directory */}
                             <div className="column is-4">
                                 <EmployeeDirectory />
-                                {/* <a href="/#">
-                                    <figure
-                                        className="image is-2by1 work-item"
-                                        src='https://picsum.photos/320/180?image=40'
-                                    ></figure>
-                                </a> */}
                             </div>
                             {/* Workout Tracker */}
                             <div className="column is-4">
                                 <WorkoutTracker />
-                                {/* <a href="/#">
-                                    <figure
-                                        className="image is-2by1 work-item"
-                                        src='https://picsum.photos/320/180?image=50'
-                                    ></figure>
-                                </a> */}
                             </div>
-                            {/* <div className="column is-3">
-                                <a href="/#">
-                                    <figure
-                                        className="image is-2by1 work-item"
-                                        src='https://picsum.photos/320/180?image=60'
-                                    ></figure>
-                                </a>
-                            </div>
-                            <div className="column is-3">
-                                <a href="/#">
-                                    <figure
-                                        className="image is-2by1 work-item"
-                                        src='https://picsum.photos/320/180?image=70'
-                                    ></figure>
-                                </a>
-                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -501,74 +374,7 @@ function TestHome() {
                 <div id='contact'>
                     <Contact />
                 </div>
-                {/* <div className="section-light contact" id="contact">
-                    <div className="container">
-                        <div
-                            className="columns is-multiline"
-                            data-aos="fade-in-up"
-                            data-aos-easing="linear"
-                        >
-                            <div className="column is-12 about-me">
-                                <h1 className="title has-text-centered section-title">
-                                    Get in touch
-                                    </h1>
-                            </div>
-                            <div className="column is-8 is-offset-2">
-                                <form
-                                    action="https://formspree.io/email@example.com"
-                                    method="POST"
-                                >
-                                    <div className="field">
-                                        <label className="label">Name</label>
-                                        <div className="control has-icons-left">
-                                            <input
-                                                className="input"
-                                                type="text"
-                                                placeholder="Ex. Jane Smith"
-                                                name="Name"
-                                            />
-                                            <span className="icon is-small is-left">
-                                                <i className="fas fa-user"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div className="field">
-                                        <label className="label">Email</label>
-                                        <div className="control has-icons-left">
-                                            <input
-                                                className="input"
-                                                type="email"
-                                                placeholder="Ex. hello@arctheme.com"
-                                                name="Email"
-                                            />
-                                            <span className="icon is-small is-left">
-                                                <i className="fas fa-envelope"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div className="field">
-                                        <label className="label">Message</label>
-                                        <div className="control">
-                                            <textarea
-                                                className="textarea"
-                                                placeholder="Textarea"
-                                                name="Message"
-                                            ></textarea>
-                                        </div>
-                                    </div>
-                                    <div className="field">
-                                        <div className="control ">
-                                            <button className="button submit-button">
-                                                Submit&nbsp;&nbsp;
-                  <i className="fas fa-paper-plane"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
+                
                 {/* <!-- End Contact Content --> */}
             </div>
             {/* <!-- End Main Content --> */}
@@ -587,6 +393,6 @@ function TestHome() {
     )
 }
 
-export default TestHome
+export default TestHome;
 
 
