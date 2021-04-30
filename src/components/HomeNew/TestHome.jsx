@@ -378,13 +378,13 @@ function TestHome() {
                                 data-aos-easing="linear"
                             >
                                 <h1>HTML</h1>
-                                <progress className="progress" value="8" max="100">80%</progress>
+                                <progress className="progress" value="80" max="100">80%</progress>
                                 <h1>CSS</h1>
-                                <progress className="progress" value="5" max="100">85%</progress>
+                                <progress className="progress" value="85" max="100">85%</progress>
                                 <h1>JavaScript</h1>
-                                <progress className="progress" value="5" max="100">75%</progress>
+                                <progress className="progress" value="75" max="100">75%</progress>
                                 <h1>MongoDB Express React Node (MERN)</h1>
-                                <progress className="progress" value="0" max="100">60%</progress>
+                                <progress className="progress" value="60" max="100">60%</progress>
                             </div>
                             <div
                                 className="column is-6"
@@ -392,13 +392,13 @@ function TestHome() {
                                 data-aos-easing="linear"
                             >
                                 <h1>API</h1>
-                                <progress className="progress" value="7" max="100">70%</progress>
+                                <progress className="progress" value="67" max="100">67%</progress>
                                 <h1>SQL / NoSQL Databases</h1>
-                                <progress className="progress" value="0" max="100">60%</progress>
+                                <progress className="progress" value="60" max="100">60%</progress>
                                 <h1>Git</h1>
-                                <progress className="progress" value="5" max="100">75%</progress>
+                                <progress className="progress" value="75" max="100">75%</progress>
                                 <h1>Adobe Illustrator / Photoshop</h1>
-                                <progress className="progress" value="0" max="100">30%</progress>
+                                <progress className="progress" value="30" max="100">30%</progress>
                             </div>
                         </div>
                     </div>
