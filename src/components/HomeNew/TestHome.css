@@ -116,6 +116,11 @@ html {
   color: #3c4172;
 }
 
+img#aboutMeImage.is-round.image  {
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.541), 0 12px 40px 0 rgba(0, 0, 0, 0.514);;
+}
+
 @media (max-width: 599px) {
   .main-content .section-dark.resume {
     padding-top: 75px;
