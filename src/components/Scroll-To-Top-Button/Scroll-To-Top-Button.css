@@ -1,7 +1,7 @@
 .scroll-to-top {
     position: fixed;
-    bottom: 0.5rem;
-    right: 0.5rem;
+    bottom: 1.65rem;
+    right: 0.75rem;
     animation: fadeIn 700ms ease-in-out 1s both;
     cursor: pointer;
     color: rgb(41, 184, 245);
