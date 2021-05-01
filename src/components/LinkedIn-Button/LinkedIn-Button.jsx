@@ -17,13 +17,6 @@ export default function ScrollToTopButton() {
     
     };
 
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    };
-
     useEffect(() => {
         window.addEventListener('scroll', toggleVisibility);
     }, []);
@@ -32,8 +25,10 @@ export default function ScrollToTopButton() {
     return (
         <div className='linkedin'>
             {isVisible &&
-                <div onClick={scrollToTop}>
-                    <Icon size={45} icon={linkedinSquare} />
+                <div >
+                    <a target='_blank' rel='noreferrer noopener' href='https://www.linkedin.com/in/walter-guerrero-7494201a9/'>
+                        <Icon size={45} icon={linkedinSquare} />
+                    </a>
                 </div>
             }
         </div>

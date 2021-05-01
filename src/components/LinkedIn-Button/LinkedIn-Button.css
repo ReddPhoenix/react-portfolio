@@ -1,21 +1,21 @@
-.scroll-to-top {
-    position: fixed;
-    bottom: 1.65rem;
-    right: 0.75rem;
-    animation: fadeIn 700ms ease-in-out 1s both;
-    cursor: pointer;
-    color: rgb(41, 184, 245);
-  }
-  
-#linkedin {
-    font-size: 4.5rem;
+.linkedin {
+  position: fixed;
+  bottom: 7.35rem;
+  right: 0.75rem;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+  color: rgb(41, 184, 245);
 }
 
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+#linkedin {
+  font-size: 4.5rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
+  to {
+    opacity: 1;
+  }
+}

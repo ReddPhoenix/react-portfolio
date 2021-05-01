@@ -12,6 +12,8 @@ import ScrollToTopButton from '../components/Scroll-To-Top-Button/Scroll-To-Top-
 import '../components/Scroll-To-Top-Button/Scroll-To-Top-Button.css';
 import GitHubButton from '../components/GitHub-Button/GitHub-Button.jsx';
 import '../components/GitHub-Button/GitHub-Button.css';
+import LinkedInButton from '../components/LinkedIn-Button/LinkedIn-Button.jsx';
+import '../components/LinkedIn-Button/LinkedIn-Button.css';
 
 
 
@@ -30,6 +32,7 @@ class App extends Component {
                         <Route path='/testhome' component={TestHome} />
                    
                     </div>
+                    <LinkedInButton />
                     <GitHubButton />
                     <ScrollToTopButton />
                 </Router>
