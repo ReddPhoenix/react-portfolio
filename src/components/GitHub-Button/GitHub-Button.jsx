@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Icon } from 'react-icons-kit';
-// import { github } from 'react-icons-kit/fa/github';
-import {linkedinSquare} from 'react-icons-kit/fa/linkedinSquare'
+import { github } from 'react-icons-kit/fa/github';
+
 
 
 
@@ -31,10 +31,10 @@ export default function ScrollToTopButton() {
 
 
     return (
-        <div className='linkedin'>
+        <div className='github'>
             {isVisible &&
                 <div onClick={scrollToTop}>
-                    <Icon size={45} icon={linkedinSquare} />
+                    <Icon size={45} icon={github} />
                 </div>
             }
         </div>

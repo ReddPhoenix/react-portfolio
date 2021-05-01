@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Icon } from 'react-icons-kit';
-// import { github } from 'react-icons-kit/fa/github';
 import { linkedinSquare } from 'react-icons-kit/fa/linkedinSquare';
 
 
