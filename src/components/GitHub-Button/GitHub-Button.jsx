@@ -5,7 +5,7 @@ import { github } from 'react-icons-kit/fa/github';
 
 
 
-export default function ScrollToTopButton() {
+export default function GitHubButton() {
 
     const [isVisible, setIsVisible] = useState(false);
 
@@ -18,13 +18,6 @@ export default function ScrollToTopButton() {
     
     };
 
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    };
-
     useEffect(() => {
         window.addEventListener('scroll', toggleVisibility);
     }, []);
@@ -33,7 +26,7 @@ export default function ScrollToTopButton() {
     return (
         <div className='github'>
             {isVisible &&
-                <div onClick={scrollToTop}>
+                <div>
                     <Icon size={45} icon={github} />
                 </div>
             }

@@ -1,6 +1,6 @@
-.scroll-to-top {
+.github {
     position: fixed;
-    bottom: 1.65rem;
+    bottom: 4.5rem;
     right: 0.75rem;
     animation: fadeIn 700ms ease-in-out 1s both;
     cursor: pointer;

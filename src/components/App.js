@@ -10,6 +10,8 @@ import HomeNew from './HomeNew/HomeNew.jsx';
 import TestHome from './HomeNew/TestHome.jsx';
 import ScrollToTopButton from '../components/Scroll-To-Top-Button/Scroll-To-Top-Button.jsx';
 import '../components/Scroll-To-Top-Button/Scroll-To-Top-Button.css';
+import GitHubButton from '../components/GitHub-Button/GitHub-Button.jsx';
+import '../components/GitHub-Button/GitHub-Button.css';
 
 
 
@@ -28,6 +30,7 @@ class App extends Component {
                         <Route path='/testhome' component={TestHome} />
                    
                     </div>
+                    <GitHubButton />
                     <ScrollToTopButton />
                 </Router>
             </>
