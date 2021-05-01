@@ -32,7 +32,7 @@ export default function ScrollToTopButton() {
         <div className='scroll-to-top'>
             {isVisible &&
                 <div onClick={scrollToTop}>
-                    <Icon size={45} icon={chevronCircleUp} />
+                    <Icon className='UpIcon' size={45} icon={chevronCircleUp} />
                 </div>
             }
         </div>

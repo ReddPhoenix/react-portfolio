@@ -11,6 +11,10 @@
     font-size: 4.5rem;
 }
 
+.UpIcon:hover {
+  color: steelblue;
+}
+
   @keyframes fadeIn {
     from {
       opacity: 0;
