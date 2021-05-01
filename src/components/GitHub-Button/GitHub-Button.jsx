@@ -27,7 +27,9 @@ export default function GitHubButton() {
         <div className='github'>
             {isVisible &&
                 <div>
+                    <a target='_blank' rel='noreferrer noopener' href='https://github.com/reddphoenix'>
                     <Icon size={45} icon={github} />
+                    </a>
                 </div>
             }
         </div>
