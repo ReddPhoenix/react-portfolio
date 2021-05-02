@@ -147,7 +147,7 @@ function TestHome() {
                             <h1 className="title has-text-centered section-title">About Me</h1>
                         </div>
                         <div className="columns is-multiline">
-                            <div className="column is-6 has-vertically-aligned-content">
+                            <div className="column is-6 has-vertically-aligned-content ">
                                 <p className="is-larger">
                                     &emsp;&emsp;<strong
                                     >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, beatae? </strong>
@@ -308,7 +308,7 @@ function TestHome() {
                             <div className="column is-12 about-me">
                                 <h1 className="title has-text-centered section-title">Skills</h1>
                             </div>
-                            <div className="column is-6">
+                            <div className="column is-6 is-10-mobile is-offset-1-mobile">
                                 <h1>HTML</h1>
                                 <progress className="progress" value="80" max="100">80%</progress>
                                 <h1>CSS</h1>
@@ -318,7 +318,7 @@ function TestHome() {
                                 <h1>MongoDB Express React Node (MERN)</h1>
                                 <progress className="progress" value="60" max="100">60%</progress>
                             </div>
-                            <div className="column is-6">
+                            <div className="column is-6 is-10-mobile is-offset-1-mobile">
                                 <h1>API</h1>
                                 <progress className="progress" value="67" max="100">67%</progress>
                                 <h1>SQL / NoSQL Databases</h1>
@@ -340,27 +340,27 @@ function TestHome() {
                                 <h1 className="title has-text-centered section-title">My Work</h1>
                             </div>
                             {/* React Slack Clone */}
-                            <div className="column is-4" >
+                            <div className="column is-4-desktop" >
                                 <ChatProject />
                             </div>
                             {/* Taskably 2.0 */}
-                            <div className="column is-4" >
+                            <div className="column is-4-desktop" >
                                 <Taskably2 />
                             </div>
                             {/* Taskably 1.0 */}
-                            <div className="column is-4" >
+                            <div className="column is-4-desktop" >
                                 <Taskably1 />
                             </div>
                             {/* Eat Da Burger! */}
-                            <div className="column is-4" >
+                            <div className="column is-4-desktop" >
                                 <EatDaBurger />
                             </div>
                             {/* Employee Directory */}
-                            <div className="column is-4">
+                            <div className="column is-4-desktop">
                                 <EmployeeDirectory />
                             </div>
                             {/* Workout Tracker */}
-                            <div className="column is-4">
+                            <div className="column is-4-desktop">
                                 <WorkoutTracker />
                             </div>
                         </div>
