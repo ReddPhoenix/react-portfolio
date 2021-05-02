@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react'
 import './TestHome.css';
 import { HashLink as Link } from 'react-router-hash-link';
@@ -34,7 +35,7 @@ function TestHome() {
             <div>
                 {/* <!-- Begin Header --> */}
                 {/* <div className="header-wrapper" id="home"> */}
-                
+
                 {/* <!-- Begin Hero --> */}
                 <section className="hero is-large">
                     {/* <!-- Begin Mobile Nav --> */}
@@ -108,22 +109,22 @@ function TestHome() {
                                 <div className="column is-12 hero-menu-desktop has-text-centered">
                                     <ul>
                                         <li className="is-active">
-                                            <Link smooth to ="#home">Home</Link>
+                                            <Link smooth to="#home">Home</Link>
                                         </li>
                                         <li>
-                                            <Link smooth to ="#about-me">About Me</Link>
+                                            <Link smooth to="#about-me">About Me</Link>
                                         </li>
                                         <li>
                                             <Link smooth to="#services">Services</Link>
                                         </li>
                                         <li>
-                                            <Link smooth to ="#skills">Skills</Link>
+                                            <Link smooth to="#skills">Skills</Link>
                                         </li>
                                         <li>
-                                            <Link smooth to ="#my-work">My Work</Link>
+                                            <Link smooth to="#my-work">My Work</Link>
                                         </li>
                                         <li>
-                                            <Link smooth to ="#contact">Contact</Link>
+                                            <Link smooth to="#contact">Contact</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -138,7 +139,7 @@ function TestHome() {
 
             {/* <!-- Begin Main Content --> */}
             <div className="main-content">
-                
+
                 {/* <!-- Begin About Me Section --> */}
                 <div className="section-dark about-me" id="about-me">
                     <div className="container">
@@ -159,24 +160,29 @@ function TestHome() {
                                 <div className="is-divider"></div>
                                 <div className="columns about-links">
                                     <div className="column">
-                                        <p className="heading">
+                                        <p className="heading has-text-centered-mobile">
                                             <strong>Email Me</strong>
                                         </p>
-                                        <p className="subheading">
+                                        <p className="subheading has-text-centered-mobile">
                                             wsguerrero@gmail.com
                                         </p>
                                     </div>
-                                    <div className="column">
+                                    <div className="social-media column has-text-centered-mobile">
+
+                                        <a href="https://www.linkedin.com/in/walter-guerrero-7494201a9/" target="_blank" className="button is-light is-large " id='contact-linkedin' rel="noreferrer"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                        <a href="https://github.com/reddphoenix" target="_blank" className="button is-light is-large" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i></a>
+                                    </div>
+                                    {/* <div className="column">
                                         <p className="heading">
                                             <strong>View my GitHub Portfolio</strong>
                                         </p>
                                         <p className="subheading">
                                             https://github.com/ReddPhoenix
                                         </p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
-                            <div className="column is-mobile is-three-quarters-mobile is-center right-image" data-aos="fade-left">
+                            <div className="column is-mobile is-three-quarters-mobile is-center  right-image" data-aos="fade-left">
                                 <img
                                     className="is-round image  " id='aboutMeImage'
                                     src="https://images.unsplash.com/photo-1489945052260-4f21c52268b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
@@ -218,7 +224,7 @@ function TestHome() {
                     </div>
                 </div>
                 {/* End Resume Content */}
-                
+
                 {/* <!-- Begin Services Content --> */}
                 <div className="section-color services" id="services">
                     <div className="container">
@@ -249,7 +255,7 @@ function TestHome() {
                                     <Icon size={45} icon={database} />
                                     <hr />
                                     <h2>
-                                        Maintain information using either a structured SQL database or a dynamic NoSQL database 
+                                        Maintain information using either a structured SQL database or a dynamic NoSQL database
                                         </h2>
                                 </div>
                             </div>
@@ -263,7 +269,7 @@ function TestHome() {
                                     </IconContext.Provider>
                                     <hr />
                                     <h2>
-                                        MERN (MongoDB Express React Node) Stack navigates application development from user interface to data management  
+                                        MERN (MongoDB Express React Node) Stack navigates application development from user interface to data management
                                         </h2>
                                 </div>
                                 <div className="column is-4 has-text-centered">
@@ -287,7 +293,7 @@ function TestHome() {
                                     </IconContext.Provider>
                                     <hr />
                                     <h2>
-                                        API development and integration to leverage applications and web services to your needs 
+                                        API development and integration to leverage applications and web services to your needs
                                         </h2>
                                 </div>
                             </div>
@@ -363,11 +369,11 @@ function TestHome() {
                 {/* <!-- End Work Content --> */}
 
                 {/* <!-- Begin Contact Content --> */}
-                
+
                 <div id='contact'>
                     <Contact />
                 </div>
-                
+
                 {/* <!-- End Contact Content --> */}
             </div>
             {/* <!-- End Main Content --> */}
