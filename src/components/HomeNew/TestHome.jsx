@@ -147,13 +147,13 @@ function TestHome() {
                             <h1 className="title has-text-centered section-title">About Me</h1>
                         </div>
                         <div className="columns is-multiline">
-                            <div className="column is-6 has-vertically-aligned-content ">
+                            <div className="column is-6 is-10-mobile has-vertically-aligned-content is-offset-1-mobile">
                                 <p className="is-larger">
                                     &emsp;&emsp;<strong
                                     >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, beatae? </strong>
                                 </p>
                                 <br />
-                                <p>
+                                <p >
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae, voluptatibus iusto animi accusamus eaque adipisci nemo? Dicta neque, numquam, sit, perspiciatis voluptatem dolore asperiores aliquid aperiam quasi at esse!
                                 </p>
                                 <br />
@@ -182,7 +182,7 @@ function TestHome() {
                                     </div> */}
                                 </div>
                             </div>
-                            <div className="column is-mobile is-three-quarters-mobile is-center  right-image" data-aos="fade-left">
+                            <div className="column is-mobile is-three-quarters-mobile is-center  right-image is-offset-1-mobile" data-aos="fade-left">
                                 <img
                                     className="is-round image  " id='aboutMeImage'
                                     src="https://images.unsplash.com/photo-1489945052260-4f21c52268b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
