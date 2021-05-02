@@ -19,7 +19,7 @@ export default function ImgMediaCard() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} id='myWorkCard'>
       <CardActionArea href='https://reddphoenix.github.io/employee-directory/' target='_blank'>
         <CardMedia
           component="img"

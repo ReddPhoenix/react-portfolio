@@ -20,7 +20,7 @@ export default function ImgMediaCard() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} id='myWorkCard'>
       <CardActionArea href='https://boiling-taiga-72789.herokuapp.com/index' target='_blank'>
         <CardMedia
           component="img"

@@ -19,7 +19,7 @@ export default function ImgMediaCard() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} id='myWorkCard'>
       <CardActionArea href='https://arcane-sands-96523.herokuapp.com' target='_blank'>
         <CardMedia
           component="img"

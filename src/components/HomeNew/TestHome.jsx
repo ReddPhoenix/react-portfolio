@@ -334,19 +334,19 @@ function TestHome() {
                                 <h1 className="title has-text-centered section-title">My Work</h1>
                             </div>
                             {/* React Slack Clone */}
-                            <div className="column is-4">
+                            <div className="column is-4" >
                                 <ChatProject />
                             </div>
                             {/* Taskably 2.0 */}
-                            <div className="column is-4">
+                            <div className="column is-4" >
                                 <Taskably2 />
                             </div>
                             {/* Taskably 1.0 */}
-                            <div className="column is-4">
+                            <div className="column is-4" >
                                 <Taskably1 />
                             </div>
                             {/* Eat Da Burger! */}
-                            <div className="column is-4">
+                            <div className="column is-4" >
                                 <EatDaBurger />
                             </div>
                             {/* Employee Directory */}
