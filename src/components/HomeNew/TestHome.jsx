@@ -172,19 +172,11 @@ function TestHome() {
                                         <a href="https://www.linkedin.com/in/walter-guerrero-7494201a9/" target="_blank" className="button is-light is-large " id='contact-linkedin' rel="noreferrer"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
                                         <a href="https://github.com/reddphoenix" target="_blank" className="button is-light is-large" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i></a>
                                     </div>
-                                    {/* <div className="column">
-                                        <p className="heading">
-                                            <strong>View my GitHub Portfolio</strong>
-                                        </p>
-                                        <p className="subheading">
-                                            https://github.com/ReddPhoenix
-                                        </p>
-                                    </div> */}
                                 </div>
                             </div>
-                            <div className="column is-mobile is-three-quarters-mobile is-center  right-image is-offset-1-mobile" data-aos="fade-left">
+                            <div className="column is-mobile is-three-quarters-mobile is-center  right-image is-offset-1-mobile" >
                                 <img
-                                    className="is-round image  " id='aboutMeImage'
+                                    className="is-round image" id='aboutMeImage'
                                     src="https://images.unsplash.com/photo-1489945052260-4f21c52268b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
                                     alt="Hola LEDs"
                                 />
@@ -211,14 +203,19 @@ function TestHome() {
                                 <h2 className="subtitle" id='resume-subtitle'>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                     eiusmod tempor incididunt ut labore et doloremagna aliqua
-                                    </h2>
-                                <form action="example.docs">
+                                </h2>
+                                <a className='button' target='_blank' rel='noreferrer noopener'
+                                    // 2021 April PDF Resume 4.2.21
+                                    href='https://drive.google.com/file/d/1O8LBf2PSAyN0VCEy8zbzUuIQQ5gar5Ao/view?usp=sharing'>
+                                    Download Resume&emsp;<FaDownload />
+                                </a>
+                                {/* <form action="example.docs">
                                     <button className="button" target='_blank' rel='noreferrer noopener'
                                         // 2021 April PDF Resume 4.2.21
                                         href='https://drive.google.com/file/d/1O8LBf2PSAyN0VCEy8zbzUuIQQ5gar5Ao/view?usp=sharing'>
                                         Download Resume&emsp;<FaDownload />
                                     </button>
-                                </form>
+                                </form> */}
                             </div>
                         </div>
                     </div>
@@ -242,24 +239,27 @@ function TestHome() {
                                     <hr />
                                     <h2>
                                         Responsive web design where your concept appears accurate no matter the screen size
-                                        </h2>
+                                    </h2>
+                                    <br />
                                 </div>
                                 <div className="column is-4 has-text-centered">
                                     <Icon size={45} icon={paintBrush} />
                                     <hr />
                                     <h2>
                                         Visuals that engage user experience with CSS3 and Sass
-                                        </h2>
+                                    </h2>
+                                    <br />
                                 </div>
                                 <div className="column is-4 has-text-centered">
                                     <Icon size={45} icon={database} />
                                     <hr />
                                     <h2>
                                         Maintain information using either a structured SQL database or a dynamic NoSQL database
-                                        </h2>
+                                    </h2>
+                                    <br />
                                 </div>
                             </div>
-                            <hr />
+                            <br />
                             <div className="columns is-12">
                                 <div className="column is-4 has-text-centered">
                                     <IconContext.Provider value={{ size: '2.5em' }}>
@@ -270,7 +270,8 @@ function TestHome() {
                                     <hr />
                                     <h2>
                                         MERN (MongoDB Express React Node) Stack navigates application development from user interface to data management
-                                        </h2>
+                                    </h2>
+                                    <br />
                                 </div>
                                 <div className="column is-4 has-text-centered">
                                     <IconContext.Provider value={{ size: '2.5em' }}>
@@ -281,7 +282,8 @@ function TestHome() {
                                     <hr />
                                     <h2>
                                         Clean, concise and readable code to ensure functionality in your application
-                                        </h2>
+                                    </h2>
+                                    <br />
                                 </div>
                                 <div className="column is-4 has-text-centered">
                                     <IconContext.Provider value={{ size: '2.5em' }}>
@@ -294,7 +296,8 @@ function TestHome() {
                                     <hr />
                                     <h2>
                                         API development and integration to leverage applications and web services to your needs
-                                        </h2>
+                                    </h2>
+                                    <br />
                                 </div>
                             </div>
                         </div>

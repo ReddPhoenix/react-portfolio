@@ -141,6 +141,16 @@ img#aboutMeImage.is-round.image  {
   text-transform: uppercase;
 }
 
+.main-content .section-dark.resume a {
+  border: 2px solid #43485c;
+  background: white;
+  color: #43485c;
+  height: 50px;
+  width: 250px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
 .main-content .section-dark.resume .fa-download {
   color: #1f2c6c;
 }
@@ -238,7 +248,7 @@ img#aboutMeImage.is-round.image  {
 }
 
 .main-content .section-color.services {
-  padding: 100px;
+  padding: 35px;
   background-color: #43485c;
   color: white;
 }
