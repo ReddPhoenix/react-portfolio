@@ -37,7 +37,7 @@ function TestHome() {
                 {/* <div className="header-wrapper" id="home"> */}
 
                 {/* <!-- Begin Hero --> */}
-                <section className="hero is-large">
+                <section className="hero is-large is-fullheight">
                     {/* <!-- Begin Mobile Nav --> */}
                     {/* <nav className="navbar is-transparent is-hidden-desktop"> */}
                     {/* <!-- Begin Burger Menu --> */}
@@ -88,7 +88,7 @@ function TestHome() {
                     {/* <!-- End Mobile Nav --> */}
 
                     {/* <!-- Begin Hero Content--> */}
-                    <div className="hero-body">
+                    <div className="hero-body is-fullheight">
                         <div className="container ">
                             <div className="columns">
                                 <div className="column is-offset-7">
