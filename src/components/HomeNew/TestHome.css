@@ -124,12 +124,12 @@ img#aboutMeImage.is-round.image  {
 
 @media (max-width: 599px) {
   .main-content .section-dark.resume {
-    padding-top: 75px;
+    padding-top: 25px;
   }
 }
 
 .main-content .section-dark.resume .title {
-  padding: 20px;
+  padding-top: 10px;
 }
 
 .main-content .section-dark.resume button {
@@ -150,6 +150,7 @@ img#aboutMeImage.is-round.image  {
   width: 250px;
   font-size: 1rem;
   text-transform: uppercase;
+  
 }
 
 .main-content .section-dark.resume .fa-download {
@@ -282,20 +283,23 @@ img#aboutMeImage.is-round.image  {
   background: #1f2c6c;
   color: rgb(7, 7, 7);
   padding-top: 2rem;
+  font-size: .5rem;
 }
 
 .footer a {
   padding: 0rem 0rem 0.5rem 0.5rem;
   color: rgb(0, 99, 248);
+  font-size: .6rem;
 }
 
 .footer a i {
-  font-size: 1.5rem;
+  font-size: .65rem;
   padding: 0px 10px;
 }
 
 .footer a .nav-item {
   color: rgb(28, 4, 241);
+  font-size: .65rem;
 }
 
 .fa-download {

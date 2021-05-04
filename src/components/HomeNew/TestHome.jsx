@@ -88,7 +88,7 @@ function TestHome() {
                     {/* <!-- End Mobile Nav --> */}
 
                     {/* <!-- Begin Hero Content--> */}
-                    <div className="hero-body is-fullheight">
+                    <div className="hero-body">
                         <div className="container ">
                             <div className="columns">
                                 <div className="column is-offset-7">
@@ -387,7 +387,7 @@ function TestHome() {
 
                     <a href="http://opensource.org/licenses/mit-license.php">MIT License</a>. The website content is licensed
                         <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-                    </p>
+                </p>
             </div>
         </>
 
