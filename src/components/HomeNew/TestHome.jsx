@@ -209,8 +209,7 @@ function TestHome() {
                             </div>
                             <div className="column is-10 has-text-centered is-offset-1">
                                 <h2 className="subtitle" id='resume-subtitle'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et doloremagna aliqua
+                                  And now that you know who I am, feel free to learn about my previous experiences.
                                 </h2>
                                 <a className='button' target='_blank' rel='noreferrer noopener'
                                     // 2021 April PDF Resume 4.2.21
