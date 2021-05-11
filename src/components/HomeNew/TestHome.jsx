@@ -115,6 +115,9 @@ function TestHome() {
                                             <Link smooth to="#about-me">About Me</Link>
                                         </li>
                                         <li>
+                                            <Link smooth to="#my-resume">My Resume</Link>
+                                        </li>
+                                        <li>
                                             <Link smooth to="#services">Services</Link>
                                         </li>
                                         <li>
@@ -150,7 +153,7 @@ function TestHome() {
                             <div className="column is-6 is-10-mobile has-vertically-aligned-content is-offset-1-mobile">
                                 <p className="is-larger">
                                     &emsp;&emsp;<strong
-                                    ><em>Now that you know what I do, how about I tell you who I am? </em></strong>
+                                    ><em>Now that you know what I do, how about I tell you who I am... </em></strong>
                                 </p>
                                 <br />
                                 <p >
@@ -195,7 +198,7 @@ function TestHome() {
                 {/* <!-- End About Me Content --> */}
 
                 {/* Begin Resume Content */}
-                <div className="section-dark resume">
+                <div className="section-dark resume" id='my-resume'>
                     <div className="container">
                         <div
                             className="columns is-multiline"
@@ -204,7 +207,7 @@ function TestHome() {
                         >
                             <div className="column is-12 about-me">
                                 <h1 className="title has-text-centered section-title">
-                                    View My Resume
+                                    My Resume
                                     </h1>
                             </div>
                             <div className="column is-10 has-text-centered is-offset-1">
