@@ -150,11 +150,16 @@ function TestHome() {
                             <div className="column is-6 is-10-mobile has-vertically-aligned-content is-offset-1-mobile">
                                 <p className="is-larger">
                                     &emsp;&emsp;<strong
-                                    >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, beatae? </strong>
+                                    >Who is Walter Guerrero? </strong>
                                 </p>
                                 <br />
                                 <p >
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repudiandae, voluptatibus iusto animi accusamus eaque adipisci nemo? Dicta neque, numquam, sit, perspiciatis voluptatem dolore asperiores aliquid aperiam quasi at esse!
+                                    Full stack web developer leveraging non-profit organization and management background to develop a rich user experience that stimulates engagement. Earned certificate in full stack web development from the University of Utah, developing skills in JavaScript, CSS, React.js, APIs, SQL/NoSQL databases, and responsive web design. Looking to leverage the fundamentals of web development to create interactive web applications to maximize clients’ and stakeholders’ scalability.
+                                </p>
+                                <br />
+                                <p>
+                                    With a passion for problem solving through innovation, I have been able to produce apps using stacks such as MERN that delivers a product using quality-driven teamwork. Worked with a team of four to develop a React.js app that uses role authentication to manage roles of customers and employees providing access to dashboards, appointments, inventory, and chat function (Version 1.0 was awarded Certificate of Recognition for Best UI/UX). With a combination of technical and soft skills, I would be a strong and welcome addition to your team.
+
                                 </p>
                                 <br />
                                 <div className="is-divider"></div>
