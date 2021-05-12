@@ -17,7 +17,7 @@ Portfolio developed to reflect experience, projects, and contact information. De
 
 ## Demo
 
-![Website Screenshot](https://raw.githubusercontent.com/ReddPhoenix/react-portfolio/main/src/assets/projects/react-portfolio.gif)
+![Website Screenshot](https://github.com/ReddPhoenix/react-portfolio/blob/main/src/assets/home/Screenshot%202021-05-11%20185250.png?raw=true)
 
 ## License
 
@@ -45,7 +45,6 @@ SOFTWARE.
 
 ## Credits
 * Trever Oveson - EmailJS & Avatar
-* Videos from Pexels
 * https://stackoverflow.com
 * https://w3docs.com
 * https://w3schools.com
