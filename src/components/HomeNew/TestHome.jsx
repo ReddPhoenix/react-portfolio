@@ -151,7 +151,7 @@ function TestHome() {
                         </div>
                         <div className="columns is-multiline">
                             <div className="column is-6 is-10-mobile has-vertically-aligned-content is-offset-1-mobile">
-                                <p className="is-larger">
+                                <p className="is-larger has-text-centered">
                                     &emsp;&emsp;<strong
                                     ><em>Now that you know what I do, how about I tell you who I am... </em></strong>
                                 </p>
