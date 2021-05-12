@@ -88,7 +88,7 @@ function TestHome() {
                     {/* <!-- End Mobile Nav --> */}
 
                     {/* <!-- Begin Hero Content--> */}
-                    <div className="hero-body">
+                    <div className="hero-body" id='home'>
                         <div className="container ">
                             <div className="columns">
                                 <div className="column is-offset-7">
@@ -103,10 +103,10 @@ function TestHome() {
                     {/* <!-- End Hero Content--> */}
 
                     {/* <!-- Begin Hero Menu --> */}
-                    <div className="hero-foot ">
-                        <div className="hero-foot--wrapper">
-                            <div className="columns">
-                                <div className="column is-12 hero-menu-desktop has-text-centered">
+                    <div className="hero-foot navbar is-fixed-top">
+                        <div className="hero-foot--wrapper ">
+                            <div className="columns has-navbar-fixed-top">
+                                <div className="column is-12 hero-menu-desktop has-text-centered ">
                                     <ul>
                                         <li className="is-active">
                                             <Link smooth to="#home">Home</Link>

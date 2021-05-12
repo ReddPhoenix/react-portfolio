@@ -37,6 +37,21 @@ html {
   color: whitesmoke;
 }
 
+@media only screen and (max-width:480px) {
+  #aboutMeImage {
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 370px)  {
+  .hero .title {
+    font-family: 'Kaushan Script', sans-serif;
+    transform: rotate(-5deg);
+    font-size: 4.5rem;
+    color: whitesmoke;
+  }
+}
+
 .hero .subtitle {
   padding: 5px;
   color: whitesmoke;
