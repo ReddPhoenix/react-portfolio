@@ -26,6 +26,10 @@ import EmployeeDirectory from '../Cards/Project4';
 import WorkoutTracker from '../Cards/Project5';
 
 function TestHome() {
+
+    function toggleBurgerMenu() {
+        document.querySelector('.navbar-menu').classList.toggle('is-active');
+    };
     
     return (
 
@@ -43,7 +47,7 @@ function TestHome() {
                     <nav className="navbar is-transparent is-hidden-desktop">
                     {/* <!-- Begin Burger Menu --> */}
                     <div className="navbar-brand">
-                                <div className="navbar-burger burger" data-target="mobile-nav">
+                                <div className="navbar-burger burger" data-target="mobile-nav" onClick={toggleBurgerMenu}>
                                     <span></span>
                                     <span></span>
                                     <span></span>
