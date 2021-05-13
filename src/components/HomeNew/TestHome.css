@@ -157,6 +157,25 @@ img#aboutMeImage.is-round.image  {
   margin-left: auto;
 }
 
+.navbar-item {
+  color: #3c4172;
+  line-height: 38px;
+  font-weight: 600;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+.navbar-menu.is-active {
+  border-radius: 60px 4px;
+}
+
+.navbar-menu ul li a:hover {
+  color: #1f2c6c;
+  transition: all .2s ease-in-out;
+  border-bottom: 2px solid #1f2c6c;
+}
+
 .main-content .section-dark.resume button {
   border: 2px solid #43485c;
   background: white;
