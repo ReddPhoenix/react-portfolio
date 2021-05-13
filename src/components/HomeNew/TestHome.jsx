@@ -26,6 +26,7 @@ import EmployeeDirectory from '../Cards/Project4';
 import WorkoutTracker from '../Cards/Project5';
 
 function TestHome() {
+    
     return (
 
         <>
@@ -39,18 +40,18 @@ function TestHome() {
                 {/* <!-- Begin Hero --> */}
                 <section className="hero is-large is-fullheight">
                     {/* <!-- Begin Mobile Nav --> */}
-                    {/* <nav className="navbar is-transparent is-hidden-desktop"> */}
+                    <nav className="navbar is-transparent is-hidden-desktop">
                     {/* <!-- Begin Burger Menu --> */}
-                    {/* <div className="navbar-brand">
+                    <div className="navbar-brand">
                                 <div className="navbar-burger burger" data-target="mobile-nav">
                                     <span></span>
                                     <span></span>
                                     <span></span>
                                 </div>
-                            </div> */}
+                            </div>
                     {/* <!-- End Burger Menu --> */}
 
-                    {/* <div id="mobile-nav" className="navbar-menu">
+                    <div id="mobile-nav" className="navbar-menu">
                                 <div className="navbar-end">
                                     <div className="navbar-item">
                                         <a className="navbar-item" href="#home">
@@ -84,7 +85,7 @@ function TestHome() {
                                     </div>
                                 </div>
                             </div>
-                        </nav> */}
+                        </nav>
                     {/* <!-- End Mobile Nav --> */}
 
                     {/* <!-- Begin Hero Content--> */}

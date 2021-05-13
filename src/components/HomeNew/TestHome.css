@@ -147,6 +147,16 @@ img#aboutMeImage.is-round.image  {
   padding-top: 10px;
 }
 
+.navbar-burger {
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  height: 3.25rem;
+  position: relative;
+  width: 3.25rem;
+  margin-left: auto;
+}
+
 .main-content .section-dark.resume button {
   border: 2px solid #43485c;
   background: white;
