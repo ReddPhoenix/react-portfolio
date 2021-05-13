@@ -109,7 +109,7 @@ function TestHome() {
                             <div className="columns has-navbar-fixed-top">
                                 <div className="column is-12 hero-menu-desktop has-text-centered ">
                                     <ul>
-                                        <li className="is-active">
+                                        <li>
                                             <Link smooth to="#home">Home</Link>
                                         </li>
                                         <li>
