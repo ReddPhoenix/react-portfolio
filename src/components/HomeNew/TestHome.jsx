@@ -30,7 +30,7 @@ function TestHome() {
     function toggleBurgerMenu() {
         document.querySelector('.navbar-menu').classList.toggle('is-active');
     };
-    
+
     return (
 
         <>
@@ -45,51 +45,56 @@ function TestHome() {
                 <section className="hero is-large is-fullheight">
                     {/* <!-- Begin Mobile Nav --> */}
                     <nav className="navbar is-transparent is-hidden-desktop">
-                    {/* <!-- Begin Burger Menu --> */}
-                    <div className="navbar-brand">
-                                <div className="navbar-burger burger" data-target="mobile-nav" onClick={toggleBurgerMenu}>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </div>
+                        {/* <!-- Begin Burger Menu --> */}
+                        <div className="navbar-brand">
+                            <div className="navbar-burger burger" data-target="mobile-nav" onClick={toggleBurgerMenu}>
+                                <span></span>
+                                <span></span>
+                                <span></span>
                             </div>
-                    {/* <!-- End Burger Menu --> */}
+                        </div>
+                        {/* <!-- End Burger Menu --> */}
 
-                    <div id="mobile-nav" className="navbar-menu">
-                                <div className="navbar-end">
-                                    <div className="navbar-item">
-                                        <a className="navbar-item" href="#home">
-                                            Home
-            </a>
-                                    </div>
-                                    <div className="navbar-item">
-                                        <a className="navbar-item" href="#about-me">
-                                            About Me
-            </a>
-                                    </div>
-                                    <div className="navbar-item">
-                                        <a className="navbar-item" href="#services">
-                                            Services
-            </a>
-                                    </div>
-                                    <div className="navbar-item">
-                                        <a className="navbar-item" href="#skills">
-                                            Skills
-            </a>
-                                    </div>
-                                    <div className="navbar-item">
-                                        <a className="navbar-item" href="#my-work">
-                                            My Work
-            </a>
-                                    </div>
-                                    <div className="navbar-item">
-                                        <a className="navbar-item" href="#contact">
-                                            Contact
-            </a>
-                                    </div>
+                        <div id="mobile-nav" className="navbar-menu">
+                            <div className="navbar-end">
+                                <div className="navbar-item">
+                                    <Link smooth className="navbar-item" to="#home" onClick={toggleBurgerMenu}>
+                                        Home
+                                    </Link>
+                                </div>
+                                <div className="navbar-item">
+                                    <Link smooth className="navbar-item" to="#about-me" onClick={toggleBurgerMenu}>
+                                        About Me
+                                    </Link>
+                                </div>
+                                <div className="navbar-item">
+                                    <Link smooth className="navbar-item" to="#my-resume" onClick={toggleBurgerMenu}>
+                                        My Resume
+                                    </Link>
+                                </div>
+                                <div className="navbar-item">
+                                    <Link smooth className="navbar-item" to="#services" onClick={toggleBurgerMenu}>
+                                        Services
+                                    </Link>
+                                </div>
+                                <div className="navbar-item">
+                                    <Link smooth className="navbar-item" to="#skills" onClick={toggleBurgerMenu}>
+                                        Skills
+                                    </Link>
+                                </div>
+                                <div className="navbar-item">
+                                    <Link smooth className="navbar-item" to="#my-work" onClick={toggleBurgerMenu}>
+                                        My Work
+                                    </Link>
+                                </div>
+                                <div className="navbar-item">
+                                    <Link smooth className="navbar-item" to="#contact" onClick={toggleBurgerMenu}>
+                                        Contact
+                                    </Link>
                                 </div>
                             </div>
-                        </nav>
+                        </div>
+                    </nav>
                     {/* <!-- End Mobile Nav --> */}
 
                     {/* <!-- Begin Hero Content--> */}
@@ -217,7 +222,7 @@ function TestHome() {
                             </div>
                             <div className="column is-10 has-text-centered is-offset-1">
                                 <h2 className="subtitle" id='resume-subtitle'>
-                                  And now that you know who I am, feel free to learn about my previous experiences.
+                                    And now that you know who I am, feel free to learn about my previous experiences.
                                 </h2>
                                 <a className='button' target='_blank' rel='noreferrer noopener'
                                     // 2021 April PDF Resume 4.2.21
