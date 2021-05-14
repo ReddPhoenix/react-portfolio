@@ -217,6 +217,13 @@ img#aboutMeImage.is-round.image  {
   }
 }
 
+@media (min-width: 600px) and (max-width: 715px) {
+  .hero-menu-desktop ul li{
+    font-size: .78rem;
+    /* margin: auto; */
+  }
+}
+
 .main-content .section-dark.my-work .work-item {
   margin-bottom: 1rem;
   -webkit-transition: all .1s ease-in-out;
