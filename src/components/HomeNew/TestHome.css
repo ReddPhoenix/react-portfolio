@@ -168,12 +168,18 @@ img#aboutMeImage.is-round.image  {
 
 .navbar-menu.is-active {
   border-radius: 60px 4px;
+  margin: 0 5px;
+  padding: 0 25px;
 }
 
-.navbar-menu ul li a:hover {
-  color: #1f2c6c;
-  transition: all .2s ease-in-out;
-  border-bottom: 2px solid #1f2c6c;
+.navbar-item a:hover {
+  color: #f7f4f4;
+  transition: all .1s ease-in-out;
+  /* border-bottom: 2px solid #04011b; */
+  border-radius: 50px;
+  border-width: 10px;
+  background-color: #43485c;
+  padding-left: 60px;
 }
 
 .main-content .section-dark.resume button {
