@@ -218,7 +218,7 @@ function TestHome() {
                             <div className="column is-12 about-me">
                                 <h1 className="title has-text-centered section-title">
                                     My Resume
-                                    </h1>
+                                </h1>
                             </div>
                             <div className="column is-10 has-text-centered is-offset-1">
                                 <h2 className="subtitle" id='resume-subtitle'>
@@ -229,13 +229,6 @@ function TestHome() {
                                     href='https://drive.google.com/file/d/1O8LBf2PSAyN0VCEy8zbzUuIQQ5gar5Ao/view?usp=sharing'>
                                     Download Resume&emsp;<FaDownload />
                                 </a>
-                                {/* <form action="example.docs">
-                                    <button className="button" target='_blank' rel='noreferrer noopener'
-                                        // 2021 April PDF Resume 4.2.21
-                                        href='https://drive.google.com/file/d/1O8LBf2PSAyN0VCEy8zbzUuIQQ5gar5Ao/view?usp=sharing'>
-                                        Download Resume&emsp;<FaDownload />
-                                    </button>
-                                </form> */}
                             </div>
                         </div>
                     </div>
@@ -248,7 +241,6 @@ function TestHome() {
                         <div className="columns is-multiline">
                             <div className="column is-12 about-me">
                                 <h1 className="title has-text-centered section-title">Services</h1>
-
                                 <h2 className="subtitle has-text-centered">
                                     Wondering what a full stack web developer such as myself can do for you?  </h2>
                                 <br />
@@ -324,6 +316,7 @@ function TestHome() {
                     </div>
                 </div>
                 {/* <!-- End Services Content --> */}
+
                 {/* <!-- Begin Skills Content --> */}
                 <div className="section-dark skills" id="skills">
                     <div className="container">
@@ -355,6 +348,7 @@ function TestHome() {
                     </div>
                 </div>
                 {/* <!-- End Skills Content --> */}
+
                 {/* <!-- Begin Work Content --> */}
                 <div className="section-color services" id="my-work">
                     <div className="container">
@@ -392,25 +386,22 @@ function TestHome() {
                 {/* <!-- End Work Content --> */}
 
                 {/* <!-- Begin Contact Content --> */}
-
                 <div id='contact'>
                     <Contact />
                 </div>
-
                 {/* <!-- End Contact Content --> */}
             </div>
             {/* <!-- End Main Content --> */}
 
-
+            {/* Begin Footer Content */}
             <div className="footer">
                 <p>
-
                     <a href="http://opensource.org/licenses/mit-license.php">MIT License</a>. The website content is licensed
-                        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+                    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
                 </p>
             </div>
+            {/* End Footer Content */}
         </>
-
 
     )
 }
