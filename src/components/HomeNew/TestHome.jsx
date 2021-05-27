@@ -225,8 +225,8 @@ function TestHome() {
                                     And now that you know who I am, feel free to learn about my previous experiences.
                                 </h2>
                                 <a className='button' target='_blank' rel='noreferrer noopener'
-                                    // 2021 April PDF Resume 4.2.21
-                                    href='https://drive.google.com/file/d/1O8LBf2PSAyN0VCEy8zbzUuIQQ5gar5Ao/view?usp=sharing'>
+                                    // 2021 April PDF Resume 5.27.21
+                                    href='https://drive.google.com/file/d/11G4yGKc4f_lBffQ0JJXCtic_yN2pqJzi/view?usp=sharing'>
                                     Download Resume&emsp;<FaDownload />
                                 </a>
                             </div>
